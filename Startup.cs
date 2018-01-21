@@ -9,7 +9,7 @@ namespace LegoDimensions
     {       
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<AbilityContext>(opt => opt.UseInMemoryDatabase("AbilityList"));
+            services.AddDbContext<PackContext>(opt => opt.UseInMemoryDatabase("PackList"));
             services.AddMvc();
         }
 

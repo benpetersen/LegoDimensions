@@ -1,0 +1,10 @@
+c:\Users\Petersens\Documents\GitHub\LegoDimensions\bin\Debug\netcoreapp2.0\LegoDimensions.deps.json
+c:\Users\Petersens\Documents\GitHub\LegoDimensions\bin\Debug\netcoreapp2.0\LegoDimensions.runtimeconfig.json
+c:\Users\Petersens\Documents\GitHub\LegoDimensions\bin\Debug\netcoreapp2.0\LegoDimensions.runtimeconfig.dev.json
+c:\Users\Petersens\Documents\GitHub\LegoDimensions\bin\Debug\netcoreapp2.0\LegoDimensions.dll
+c:\Users\Petersens\Documents\GitHub\LegoDimensions\bin\Debug\netcoreapp2.0\LegoDimensions.pdb
+c:\Users\Petersens\Documents\GitHub\LegoDimensions\obj\Debug\netcoreapp2.0\LegoDimensions.csproj.CoreCompileInputs.cache
+c:\Users\Petersens\Documents\GitHub\LegoDimensions\obj\Debug\netcoreapp2.0\LegoDimensions.AssemblyInfoInputs.cache
+c:\Users\Petersens\Documents\GitHub\LegoDimensions\obj\Debug\netcoreapp2.0\LegoDimensions.AssemblyInfo.cs
+c:\Users\Petersens\Documents\GitHub\LegoDimensions\obj\Debug\netcoreapp2.0\LegoDimensions.dll
+c:\Users\Petersens\Documents\GitHub\LegoDimensions\obj\Debug\netcoreapp2.0\LegoDimensions.pdb

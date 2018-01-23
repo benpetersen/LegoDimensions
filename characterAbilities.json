@@ -218,5 +218,132 @@
 			{"Name": "Mind Control"}, 
 			{"Name": "Super Strength Handles"}
 		]
+	}, {
+		"ID": 24,
+			"Name": "Zane",
+			"Abilities": [
+				{"Name": "Acrobat"}, 
+				{"Name": "Boomerang"}, 
+				{"Name": "Dive"}, 
+				{"Name": "Spinjitzu"}, 
+				{"Name": "Stealth"}, 
+				{"Name": "X-Ray Vision"}
+			]
+	}, {
+		"ID": 25,
+		"Name": "The Doctor",
+		"Abilities": [
+			{"Name": "Doctor Regen"}, 
+			{"Name": "Fix-It"}, 
+			{"Name": "Hacking"}, 
+			{"Name": "Intelligence"}, 
+			{"Name": "Sonar Smash"}, 
+			{"Name": "Tardis Access"}, 
+			{"Name": "Technology"}
+		]
+	}, {
+		"ID": 26,
+		"Name": "Cole",
+		"Abilities": [
+			{"Name": "Acrobat"},
+			{"Name": "Laser Deflector"},
+			{"Name": "Spinjitzu"},
+			{"Name": "Stealth"},
+			{"Name": "Super Strength"}
+		]
+	},{
+		"ID": 27,
+		"Name": "Kai",
+		"Abilities": [
+			{"Name": "Acrobat"},
+			{"Name": "Laser Deflector"},
+			{"Name": "Spinjitzu"},
+			{"Name": "Stealth"}
+		]
+	}, {
+		"ID": 28,
+		"Name": "Bart Simpson",
+		"Abilities": [
+			{"Name": "Mini Access"},
+			{"Name": "Target"}
+		]
+	}, {
+		"ID": 29,
+		"Name": "Krusty",
+		"Abilities": [
+			{"Name": "Hazard Cleaner"},
+			{"Name": "Water Spray"}
+		]
+	}, {
+		"ID": 30,
+		"Name": "Krusty",
+		"Abilities": [
+			{"Name": "Big Transform"},
+			{"Name": "Master Build"},
+			{"Name": "Rainbow Lego Objects"}
+		]
+	}, {
+		"ID": 31,
+		"Name": "Peter Venkman",
+		"Abilities": [
+			{"Name": "Character Change"}, 
+			{"Name": "Hazard Protection"}, 
+			{"Name": "Laser"}, 
+			{"Name": "Suspend Ghosts"}]
+	},{
+		"ID": 32,
+		"Name": "Egon Spengler",
+		"Abilities": [
+			{"Name": "Character Change"},
+			{"Name": "Hazard Protection"}, 
+			{"Name": "Laser"}, 
+			{"Name": "Suspend Ghosts"}
+		]
+	},{
+		"ID": 33,
+		"Name": "Ray Stantz",
+		"Abilities": [
+			{"Name": "Character Change"},
+			{"Name": "Hazard Protection"},
+			{"Name": "Laser"},
+			{"Name": "Suspend Ghosts"}
+		]
+	},{
+		"ID": 34,
+		"Name": "Winston Zeddemore",
+		"Abilities": [
+			{"Name": "Character Change"},
+			{"Name": "Hazard Protection"},
+			{"Name": "Laser"},
+			{"Name": "Suspend Ghosts"}
+		]
+	}, {
+		"ID": 35,
+		"Name": "The Joker",
+		"Abilities": [
+			{"Name": "Electricity"},
+			{"Name": "Grapple"}, 
+			{"Name": "Hazard Protection"},
+			{"Name": "Target"}
+		]
+	},{
+		"ID": 36,
+		"Name": "Harley Quinn",
+		"Abilities": [
+			{"Name": "Acrobat"},
+			{"Name": "Super Strength"}
+		]
+	}, {
+		"ID": 37,
+		"Name": "Cyberman",
+		"Abilities": [
+			{"Name": "Dive"},
+			{"Name": "Drone Access"},
+			{"Name": "Hacking"},
+			{"Name": "Mind Control"},
+			{"Name": "Silver Lego Blowup"},
+			{"Name": "Technology"},
+			{"Name": "X-Ray Vision"}
+		]
 	}
 ]

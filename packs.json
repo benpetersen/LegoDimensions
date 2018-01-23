@@ -1,5 +1,6 @@
 [
 	{
+		"ID": 0,
 		"PackName" : "Exclusive",
 		"PackType" : "Level",
 		"Wave": 0,
@@ -9,6 +10,7 @@
 		}]
 	},
 	{
+		"ID": 1,
 		"PackName" : "PS4 Exclusive",
 		"PackType" : "Level",
 		"Wave": 1,
@@ -18,6 +20,7 @@
 		}]
 	},
 	{
+		"ID": 2,
 		"PackName" : "Starter Pack",
 		"PackType" : "Story",
 		"Wave": 1,
@@ -34,6 +37,7 @@
 		}]
 	},
 	{
+		"ID": 3,
 		"PackName" : "Back To The Future",
 		"PackType" : "Level",
 		"PackNumber": 71201,
@@ -43,6 +47,7 @@
 			"Name": "Marty McFly"
 		}]
 	},{
+		"ID": 4,
 		"PackName" : "Portal 2",
 		"PackType" : "Level",
 		"PackNumber": 71203,
@@ -52,6 +57,7 @@
 			"Name": "Chell"
 		}]
 	},{
+		"ID": 5,
 		"PackName" : "The Simpsons",
 		"PackType" : "Level",
 		"PackNumber": 71202,
@@ -61,6 +67,7 @@
 			"Name": "Homer Simpson"
 		}]
 	},{
+		"ID": 6,
 		"PackName" : "Jurassic World",
 		"PackType" : "Team",
 		"PackNumber": 71205,
@@ -73,6 +80,7 @@
 			"Name": "Owen Grady"
 		}]
 	},{
+		"ID": 7,
 		"PackName" : "Scooby Doo",
 		"PackType" : "Level",
 		"PackNumber": 71206,
@@ -85,6 +93,7 @@
 			"Name": "Shaggy"
 		}]
 	},{
+		"ID": 8,
 		"PackName" : "Bad Cop",
 		"PackType" : "Fun",
 		"PackNumber": 71213,
@@ -94,6 +103,7 @@
 			"Name": "Bad Cop"
 		}]
 	},{
+		"ID": 9,
 		"PackName" : "Benny",
 		"PackType" : "Fun",
 		"PackNumber": 71214,
@@ -103,6 +113,7 @@
 			"Name": "Benny"
 		}]
 	},{
+		"ID": 10,
 		"PackName" : "Cragger",
 		"PackType" : "Fun",
 		"PackNumber": 71223,
@@ -112,6 +123,7 @@
 			"Name": "Cragger"
 		}]
 	},{
+		"ID": 11,
 		"PackName" : "Cyborg",
 		"PackType" : "Fun",
 		"PackNumber": 71210,
@@ -121,6 +133,7 @@
 			"Name": "Cyborg"
 		}]
 	},{
+		"ID": 12,
 		"PackName" : "Emmet",
 		"PackType" : "Fun",
 		"PackNumber": 71212,
@@ -130,6 +143,7 @@
 			"Name": "Emmet"
 		}]
 	},{
+		"ID": 13,
 		"PackName" : "Eris",
 		"PackType" : "Fun",
 		"PackNumber": 71213,
@@ -139,6 +153,7 @@
 			"Name": "Eris"
 		}]
 	},{
+		"ID": 14,
 		"PackName" : "Gimli",
 		"PackType" : "Fun",
 		"PackNumber": 71220,
@@ -148,6 +163,7 @@
 			"Name": "Gimli"
 		}]
 	},{
+		"ID": 15,
 		"PackName" : "Gollum",
 		"PackType" : "Fun",
 		"PackNumber": 71218,
@@ -157,6 +173,7 @@
 			"Name": "Gollum"
 		}]
 	},{
+		"ID": 16,
 		"PackName" : "Jay",
 		"PackType" : "Fun",
 		"PackNumber": 71215,
@@ -166,6 +183,7 @@
 			"Name": "Jay"
 		}]
 	},{
+		"ID": 17,
 		"PackName" : "Wicked Witch",
 		"PackType" : "Fun",
 		"packNumber": 71216,
@@ -175,6 +193,7 @@
 			"Name": "Wicked Witch"
 		}]
 	},{
+		"ID": 18,
 		"PackName" : "Wonder Woman",
 		"PackType" : "Fun",
 		"packNumber": 71209,
@@ -184,6 +203,7 @@
 			"Name": "Wonder Woman"
 		}]
 	},{
+		"ID": 19,
 		"PackName" : "Zane",
 		"PackType" : "Fun",
 		"packNumber": 71217,
@@ -193,6 +213,7 @@
 			"Name": "Zane"
 		}]
 	},{
+		"ID": 20,
 		"PackName" : "Doctor Who",
 		"PackType" : "Level",
 		"packNumber": 71204,
@@ -202,6 +223,7 @@
 			"Name": "The Doctor"
 		}]
 	},{
+		"ID": 21,
 		"PackName" : "Cole & Kai",
 		"PackType" : "Team",
 		"packNumber": 71207,
@@ -214,6 +236,7 @@
 			"Name": "Kai"
 		}]
 	},{
+		"ID": 22,
 		"PackName" : "Bart Simpson",
 		"PackType" : "Fun",
 		"packNumber": 71211,
@@ -223,6 +246,7 @@
 			"Name": "Bart Simpson"
 		}]
 	},{
+		"ID": 23,
 		"PackName" : "Krusty",
 		"PackType" : "Fun",
 		"packNumber": 71227,
@@ -232,6 +256,7 @@
 			"Name": "Krusty"
 		}]
 	},{
+		"ID": 24,
 		"PackName" : "Unikitty",
 		"PackType" : "Fun",
 		"packNumber": 71231,
@@ -241,6 +266,7 @@
 			"Name": "Krusty"
 		}]
 	},{
+		"ID": 25,
 		"PackName" : "Ghostbusters",
 		"PackType" : "Level",
 		"packNumber": 71228,
@@ -263,6 +289,7 @@
 			"Abilities": ["Character Change","Hazard Protection", "Laser", "Suspend Ghosts"]
 		}]
 	},{
+		"ID": 26,
 		"PackName" : "Joker & Harley Quinn",
 		"PackType" : "Team",
 		"packNumber": 71229,
@@ -277,6 +304,7 @@
 			"Abilities": ["Acrobat", "Super Strength"]
 		}]
 	},{
+		"ID": 27,
 		"PackName" : "Cyberman",
 		"PackType" : "Fun",
 		"packNumber": 71238,
@@ -287,6 +315,7 @@
 			"Abilities": ["Dive","Drone Access", "Hacking", "Mind Control", "Silver Lego Blowup","Technology", "X-Ray Vision"]
 		}]
 	},{
+		"ID": 28,
 		"PackName" : "Doc Brown",
 		"PackType" : "Fun",
 		"packNumber": 71230,
@@ -297,6 +326,7 @@
 			"Abilities": ["Drone Access","Fix-It","Hacking", "Intelligence", "Technology"]
 		}]
 	},{
+		"ID": 29,
 		"PackName" : "Sensei Wu",
 		"PackType" : "Fun",
 		"packNumber": 71234,
@@ -307,6 +337,7 @@
 			"Abilities": ["Acrobat", "Glide", "Pole Vault", "Spinjitzu", "Stealth"]
 		}]
 	},{
+		"ID": 30,
 		"PackName" : "Midway Arcade",
 		"PackType" : "Level",
 		"packNumber": 71235,
@@ -317,6 +348,7 @@
 			"Abilities": ["Invulnerability", "Laser", "Speed", "Stealth", "Super Strength"]
 		}]
 	},{
+		"ID": 31,
 		"PackName" : "Aquaman",
 		"PackType" : "Fun",
 		"packNumber": 71237,
@@ -327,6 +359,7 @@
 			"Abilities": ["Atlantis","Dive","Growth","Hazard Cleaner", "Water Spray"]
 		}]
 	},{
+		"ID": 32,
 		"PackName" : "Stay Puft",
 		"PackType" : "Fun",
 		"packNumber": 71233,
@@ -337,6 +370,7 @@
 			"Abilities": ["Big Transform", "Hazard Protection", "Super Strength", "Super Strength Handles"]
 		}]
 	},{
+		"ID": 33,
 		"PackName" : "Superman",
 		"PackType" : "Fun",
 		"packNumber": 71236,
@@ -347,6 +381,7 @@
 			"Abilities": ["Dive","Flying", "Freeze Breath", "Invulnerability","Laser", "Super Strength", "Super Strength Handles", "X-Ray Vision"]
 		}]
 	},{
+		"ID": 34,
 		"PackName" : "Bane",
 		"PackType" : "Fun",
 		"packNumber": 71240,
@@ -357,6 +392,7 @@
 			"Abilities": ["Big Transform", "Hazard Protection","Super Strength","Super Strength Handles"]
 		}]
 	},{
+		"ID": 35,
 		"PackName" : "Lloyd",
 		"PackType" : "Fun",
 		"packNumber": 71239,
@@ -367,6 +403,7 @@
 			"Abilities": ["Acrobat", "Illumination", "Laser Deflector", "Spinjitzu", "Stealth"]
 		}]
 	},{
+		"ID": 36,
 		"PackName" : "Slimer",
 		"PackType" : "Fun",
 		"packNumber": 71241,
@@ -377,6 +414,7 @@
 			"Abilities": ["Boomerang","Dig", "Flying", "Hazard Cleaner", "Hazard Protection", "Illumination", "Mini Access", "Slurp Access", "Sonar Smash"]
 		}]
 	},{
+		"ID": 37,
 		"PackName" : "Ghostbusters 2016",
 		"PackType" : "Story",
 		"packNumber": 71242,
@@ -399,6 +437,7 @@
 			"Abilities": ["Character Change","Ghost Chipper","Ghost Trap", "Intelligence", "Laser", "Super Strength", "Super Strength Handles", "Suspend Ghosts", "Technology"]
 		}]
 	},{
+		"ID": 38,
 		"PackName" : "Adventure Time",
 		"PackType" : "Level",
 		"packNumber": 71245,
@@ -409,6 +448,7 @@
 			"Abilities": ["Acrobat","Cursed Red Lego Objects","Grapple","Laser", "Laser Deflector", "Rope Swings", "Sword Switch", "Target", "Vine Cut", "Weapon Switch"]
 		}]
 	},{
+		"ID": 39,
 		"PackName" : "Mission Impossible",
 		"PackType" : "Level",
 		"packNumber": 71248,
@@ -419,6 +459,7 @@
 			"Abilities": ["Acrobat", "Dive", "Drone Access", "Fuse Box","Grapple", "Magno Gloves", "Rope Swings", "Scan Disguise", "Silver Lego Blowup", "Stealth", "Target", "Technology", "X-Ray Vision"]
 		}]
 	},{
+		"ID": 40,
 		"PackName" : "Adventure Time",
 		"PackType" : "Team",
 		"packNumber": 71246,
@@ -433,6 +474,7 @@
 			"Abilities": ["Boomerang", "Hazard Protection", "Mini Access", "Rainbow Lego Objects","Slurp Access", "Target"]
 		}]
 	},{
+		"ID": 41,
 		"PackName" : "Harry Potter",
 		"PackType" : "Team",
 		"packNumber": 71247,
@@ -447,6 +489,7 @@
 			"Abilities": ["Apparate Access","Diffindo","Dark Arts","Flying","Growth", "Hazard Cleaner", "Illumination",  "Laser Deflector", "Magic", "Magical Shield", "Mind Control", "Parseltongue Doors", "Silver Lego Blowup", "Target", "Water Spray"]
 		}]
 	},{
+		"ID": 42,
 		"PackName" : "B.A. Baracus",
 		"PackType" : "Fun",
 		"packNumber": 71251,
@@ -469,6 +512,7 @@
 			"Abilities": ["Character Change", "Silver Lego Blowup", "Target"]
 		}]
 	},{
+		"ID": 43,
 		"PackName" : "Fantastic Beasts",
 		"PackType" : "Story",
 		"packNumber": 71253,
@@ -483,6 +527,7 @@
 			"Abilities": ["Character Change", "Silver Lego Blowup"]
 		}]
 	},{
+		"ID": 44,
 		"PackName" : "Sonic",
 		"PackType" : "Level",
 		"packNumber": 71244,
@@ -493,6 +538,7 @@
 			"Abilities": ["Acrobat","Grind Rails","Invulnerability","Laser Deflector","Speed","Super Strength"]
 		}]
 	},{
+		"ID": 45,
 		"PackName" : "Gremlins",
 		"PackType" : "Level",
 		"packNumber": 71256,
@@ -507,6 +553,7 @@
 			"Abilities": ["Acrobat","Dig","Target","Vine Cut"]
 		}]
 	},{
+		"ID": 46,
 		"PackName" : "E.T.",
 		"PackType" : "Fun",
 		"packNumber": 71258,
@@ -517,6 +564,7 @@
 			"Abilities": ["Fix-It","Growth","Heart Regen","Illumination","Laser Deflector","Magic","Mini Access","Stealth"]
 		}]
 	},{
+		"ID": 47,
 		"PackName" : "Marceline",
 		"PackType" : "Fun",
 		"packNumber": 71285,
@@ -527,6 +575,7 @@
 			"Abilities": ["Acrobat", "Cursed Red Lego Objects","Dig","Flying","Heart Regen","Laser Deflector","Magic","Mind Control","Mini Access","Slurp Access","Sonar Smash","Stealth","Super Strength","Tracking","Vine Cut"]
 		}]
 	},{
+		"ID": 48,
 		"PackName" : "Tina Goldstein",
 		"PackType" : "Fun",
 		"packNumber": 71257,
@@ -541,6 +590,7 @@
 			"Abilities": ["Apparate Access", "Character Change","Diffindo","Growth","Hazard Cleaner","Illumination","Laser Deflector","Magic","Magical Shield","Mind Control","Pole Vault","Mind Control","Silver Lego Blowup","Target","Water Spray"]
 		}]
 	},{
+		"ID": 49,
 		"PackName" : "LEGO Batman Movie",
 		"PackType" : "Story",
 		"packNumber": 71264,
@@ -555,6 +605,7 @@
 			"Abilities": ["Boomerang","Detective Mode","Grapple","High Security Access","Stealth"]
 		}]
 	},{
+		"ID": 50,
 		"PackName" : "Excalibur Batman",
 		"PackType" : "Fun",
 		"packNumber": 71344,
@@ -565,6 +616,7 @@
 			"Abilities": ["Boomerang","Grapple","Laser Deflector","Master Build","Stealth","Super Strength","Sword Switch"]
 		}]
 	},{
+		"ID": 51,
 		"PackName" : "Michael Knight",
 		"PackType" : "Fun",
 		"packNumber": 71344,
@@ -575,6 +627,7 @@
 			"Abilities": ["Acrobat", "Hacking", "Technology","Tracking","X-Ray Vision"]
 		}]
 	},{
+		"ID": 52,
 		"PackName" : "Lego Batman",
 		"PackType" : "Red Brick",
 		"packNumber": 71344,
@@ -585,6 +638,7 @@
 			"Abilities": ["Boomerang","Detective Mode","Glide","Grapple","Master Build", "Merch Gun", "Rope Swings","Stealth"]
 		}]
 	},{
+		"ID": 53,
 		"PackName" : "The Goonies",
 		"PackType" : "Level",
 		"packNumber": 71267,
@@ -623,6 +677,7 @@
 			"Abilities": ["Character Change"]
 		}]
 	},{
+		"ID": 54,
 		"PackName" : "Chase McCain",
 		"PackType" : "Fun",
 		"packNumber": 71266,
@@ -633,6 +688,7 @@
 			"Abilities": ["Acrobat", "Detective Scanner", "Drill", "Grapple", "Silver Lego Blowup","Tracking", "Uniform Changing", "Water Spray"]
 		}]
 	},{
+		"ID": 55,
 		"PackName" : "Hermoine Granger",
 		"PackType" : "Fun",
 		"packNumber": 71348,

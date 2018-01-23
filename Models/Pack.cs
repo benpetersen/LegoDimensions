@@ -13,16 +13,3 @@ namespace LegoDimensions.Models
 
 
 }
-
-
-
-/*
-"packName" : "Chase McCain",
-		"packType" : "Fun",
-		"packNumber": 71266,
-		"waveNumber": 8,
-		"characters" : [{
-			"name": "Chase McCain",
-			"abilities": ["Acrobat", "Detective Scanner", "Drill", "Grapple", "Silver Lego Blowup","Tracking", "Uniform Changing", "Water Spray"]
-		}]
- */

@@ -1,0 +1,222 @@
+[
+	{
+		"ID": 1,
+		"CharacterName" : "Green Arrow",
+		"Abilities": [
+			{"Name": "Acrobat"},
+			{"Name": "Grapple"}, 
+			{"Name": "Pole Vault"}, 
+			{"Name": "Target"}
+		]
+	},
+	{
+		"ID": 2,
+		"CharacterName": "Supergirl",
+		"Abilities": [
+			{"Name": "Dig"},
+			{"Name": "Dive"},
+			{"Name": "Flying"},
+			{"Name": "Freeze Breath"},
+			{"Name": "Grapple"},
+			{"Name": "Invulnerability"}, 
+			{"Name": "Lantern Constructs"}, 
+			{"Name": "Laser"}, 
+			{"Name": "Super Strength"},
+			{"Name": "X-Ray Vision"}
+		]
+	},
+	{
+		"ID": 3,
+		"Name": "Batman",
+		"Abilities": [
+			{"Name": "Boomerang"}, 
+			{"Name": "Grapple"}, 
+			{"Name":  "Stealth"}
+		]
+	},
+	{
+		"ID": 4,
+		"Name": "Gandalf",
+		"Abilities": [
+			{"Name": "Illumination"}, 
+			{"Name": "Magic"}, 
+			{"Name": "Magical Shield"}
+		]
+	},{      
+		"ID": 5,
+		"Name": "Wildstyle",
+		"Abilities": [
+			{"Name": "Acrobat"},
+			{"Name": "Master Build"}, 
+			{"Name": "Relic Detector"}
+		]
+	},{
+		"ID": 6,
+		"Name": "Marty McFly",
+		"Abilities": [
+			{"Name": "Sonar Smash"}
+		]
+	},{
+		"ID": 7,
+		"Name": "Chell",
+		"Abilities": [
+			{"Name": "Acrobat"}, 
+			{"Name": "Portal Gun"}, 
+			{"Name": "Target"}
+		]
+	},{
+		"ID": 8,
+		"Name": "Homer Simpson",
+		"Abilities": [
+			{"Name": "Big Transform"},
+			{"Name":  "Sonar Smash"}, 
+			{"Name": "Super Strength"}
+		]
+	},{
+		"ID": 9,
+		"Name": "ACU",
+		"Abilities": [
+			{"Name": "Electricity"}, 
+			{"Name": "Illumination"}, 
+			{"Name":  "Super Strength"}
+		]
+	},{
+		"ID": 10,
+		"Name": "Owen Grady",
+		"Abilities": [
+			{"Name": "Stealth"}, 
+			{"Name": "Target"}, 
+			{"Name": "Tracking"}, 
+			{"Name": "Vine Cut"}
+		]
+	},{
+		"ID": 11,
+		"Name": "Scooby-Doo",
+		"Abilities": [
+			{"Name": "Dig"}, 
+			{"Name": "Dive"},
+			{"Name":  "Glide"},
+			{"Name": "Stealth"}, 
+			{"Name": "Tracking"}
+		]
+	},{
+		"ID": 12,
+		"Name": "Shaggy",
+		"Abilities": [
+			{"Name": "Glide"}, 
+			{"Name": "Stealth"}, 
+			{"Name": "Tracking"}
+		]
+	},{
+		"ID": 13,
+		"Name": "Bad Cop",
+		"Abilities": [
+			{"Name": "Laser"}, 
+			{"Name": "Relic Detector"}, 
+			{"Name": "Target"}
+		]
+	},{
+		"ID": 14,
+		"Name": "Benny",
+		"Abilities": [
+			{"Name": "Glide"},
+			{"Name": "Hacking"}, 
+			{"Name": "Master Build"}, 
+			{"Name": "Sonar Smash"}, 
+			{"Name": "Target"},
+			{"Name": "Technology"}
+		]
+	},{
+		"ID": 15,
+		"Name": "Cragger",
+		"Abilities": [
+			{"Name": "Chi"},
+			{"Name": "Dive"}, 
+			{"Name": "Hazard Protection"}, 
+			{"Name": "Super Strength"}, 
+			{"Name": "Super Strength Handles"}
+		]
+	},{
+		"ID": 16,
+		"Name": "Cyborg",
+		"Abilities": [
+			{"Name": "Big Transform"},
+			{"Name": "Dive"},
+			{"Name": "Laser"}, 
+			{"Name": "Super Strength"}, 
+			{"Name": "Target"},
+			{"Name": "Technology"}
+		]
+	},{
+		"ID": 17,
+		"Name": "Emmet",
+		"Abilities": [
+			{"Name": "Drill"},
+			{"Name": "Fix-It"},
+			{"Name": "Master Build"}
+		]
+	},{
+		"ID": 18,
+		"Name": "Eris",
+		"Abilities": [
+			{"Name": "Chi"},
+			{"Name": "Flying"}, 
+			{"Name": "Super Strength"}, 
+			{"Name": "Target"}
+		]
+	},{
+		"ID":19,
+		"Name": "Gimli",
+		"Abilities": [
+			{"Name": "Mini Access"}, 
+			{"Name": "Super Strength"}
+		]
+	},{
+		"ID": 20,
+		"Name": "Gollum",
+		"Abilities": [
+			{"Name": "Acrobat"}, 
+			{"Name": "Boomerang"}, 
+			{"Name": "Dive"}, 
+			{"Name": "Mini Access"},
+			{"Name": "Silver Lego Blowup"}
+		]
+	},{
+		"ID": 21,
+		"Name": "Jay",
+		"Abilities": [
+			{"Name": "Acrobat"},
+			{"Name": "Electricity"}, 
+			{"Name": "Fix-It"}, 
+			{"Name": "Intelligence"},
+			{"Name": "Spinjitzu"}, 
+			{"Name": "Stealth"}
+		]
+	}, {
+		"ID": 22,
+		"Name": "Wicked Witch",
+		"Abilities": [
+			{"Name": "Flying"},
+			{"Name": "Illumination"},
+			{"Name": "Magic"},
+			{"Name": "Magical Shield"}, 
+			{"Name": "Mind Control"},
+			{"Name": "Silver Lego Blowup"},
+			{"Name": "Target"}
+		]
+	}, {
+		"ID": 23,
+		"Name": "Wonder Woman",
+		"Abilities": [
+			{"Name": "Acrobat"}, 
+			{"Name": "Boomerang"}, 
+			{"Name": "Dive"}, 
+			{"Name": "Flying"}, 
+			{"Name": "Grapple"}, 
+			{"Name": "Invulnerability"},
+			{"Name": "Laser Deflector"},
+			{"Name": "Mind Control"}, 
+			{"Name": "Super Strength Handles"}
+		]
+	}
+]

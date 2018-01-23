@@ -4,13 +4,8 @@
 		"PackType" : "Level",
 		"Wave": 0,
 		"Characters" : [{
-			"Name": "Green Arrow",
-			"Abilities": [
-				{"Name": "Acrobat"},
-				{"Name": "Grapple"}, 
-				{"Name": "Pole Vault"}, 
-				{"Name": "Target"}
-			]
+			"ID": 1,
+			"Name": "Green Arrow"
 		}]
 	},
 	{
@@ -18,19 +13,8 @@
 		"PackType" : "Level",
 		"Wave": 1,
 		"Characters" : [{
-			"Name": "Supergirl",
-			"Abilities": [
-				{"Name": "Dig"},
-				{"Name": "Dive"},
-				{"Name": "Flying"},
-				{"Name": "Freeze Breath"},
-				{"Name": "Grapple"},
-				{"Name": "Invulnerability"}, 
-				{"Name": "Lantern Constructs"}, 
-				{"Name": "Laser"}, 
-				{"Name": "Super Strength"},
-				{"Name": "X-Ray Vision"}
-			]
+			"ID": 2,
+			"Name": "Supergirl"
 		}]
 	},
 	{
@@ -39,26 +23,14 @@
 		"Wave": 1,
 		"PackNumber": 71170,
 		"Characters" : [{
-			"Name": "Batman",
-			"Abilities": [
-				{"Name": "Boomerang"}, 
-				{"Name": "Grapple"}, 
-				{"Name":  "Stealth"}
-			]
+			"ID": 3,
+			"Name": "Batman"
 		},{
-			"Name": "Gandalf",
-			"Abilities": [
-				{"Name": "Illumination"}, 
-				{"Name": "Magic"}, 
-				{"Name": "Magical Shield"}
-			]
+			"ID": 4,
+			"Name": "Gandalf"
 		},{
-			"Name": "Wildstyle",
-			"Abilities": [
-				{"Name": "Acrobat"},
-				{"Name": "Master Build"}, 
-				{"Name": "Relic Detector"}
-			]
+			"ID": 5,
+			"Name": "Wildstyle"
 		}]
 	},
 	{
@@ -67,10 +39,8 @@
 		"PackNumber": 71201,
 		"Wave": 1,
 		"Characters" : [{
-			"Name": "Marty McFly",
-			"Abilities": [
-				{"Name": "Sonar Smash"}
-			]
+			"ID": 6,
+			"Name": "Marty McFly"
 		}]
 	},{
 		"PackName" : "Portal 2",
@@ -78,12 +48,8 @@
 		"PackNumber": 71203,
 		"Wave": 1,
 		"Characters" : [{
-			"Name": "Chell",
-			"Abilities": [
-				{"Name": "Acrobat"}, 
-				{"Name": "Portal Gun"}, 
-				{"Name": "Target"}
-			]
+			"ID": 7,
+			"Name": "Chell"
 		}]
 	},{
 		"PackName" : "The Simpsons",
@@ -91,12 +57,8 @@
 		"PackNumber": 71202,
 		"Wave": 1,
 		"Characters" : [{
-			"Name": "Homer Simpson",
-			"Abilities": [
-				{"Name": "Big Transform"},
-				{"Name":  "Sonar Smash"}, 
-				{"Name": "Super Strength"}
-			]
+			"ID": 8,
+			"Name": "Homer Simpson"
 		}]
 	},{
 		"PackName" : "Jurassic World",
@@ -104,20 +66,11 @@
 		"PackNumber": 71205,
 		"Wave": 1,
 		"Characters" : [{
-			"Name": "ACU",
-			"Abilities": [
-				{"Name": "Electricity"}, 
-				{"Name": "Illumination"}, 
-				{"Name":  "Super Strength"}
-			]
+			"ID": 9,
+			"Name": "ACU"
 		},{
-			"Name": "Owen Grady",
-			"Abilities": [
-				{"Name": "Stealth"}, 
-				{"Name": "Target"}, 
-				{"Name": "Tracking"}, 
-				{"Name": "Vine Cut"}
-			]
+			"ID": 10,
+			"Name": "Owen Grady"
 		}]
 	},{
 		"PackName" : "Scooby Doo",
@@ -125,21 +78,11 @@
 		"PackNumber": 71206,
 		"Wave": 1,
 		"Characters" : [{
-			"Name": "Scooby-Doo",
-			"Abilities": [
-				{"Name": "Dig"}, 
-				{"Name": "Dive"},
-				{"Name":  "Glide"},
-				{"Name": "Stealth"}, 
-				{"Name": "Tracking"}
-			]
+			"ID": 11,
+			"Name": "Scooby-Doo"
 		},{
-			"Name": "Shaggy",
-			"Abilities": [
-				{"Name": "Glide"}, 
-				{"Name": "Stealth"}, 
-				{"Name": "Tracking"}
-			]
+			"ID": 12,
+			"Name": "Shaggy"
 		}]
 	},{
 		"PackName" : "Bad Cop",
@@ -147,12 +90,8 @@
 		"PackNumber": 71213,
 		"Wave": 1,
 		"Characters" : [{
-			"Name": "Bad Cop",
-			"Abilities": [
-				{"Name": "Laser"}, 
-				{"Name": "Relic Detector"}, 
-				{"Name": "Target"}
-			]
+			"ID": 13,
+			"Name": "Bad Cop"
 		}]
 	},{
 		"PackName" : "Benny",
@@ -160,15 +99,8 @@
 		"PackNumber": 71214,
 		"Wave": 1,
 		"Characters" : [{
-			"Name": "Benny",
-			"Abilities": [
-				{"Name": "Glide"},
-				{"Name": "Hacking"}, 
-				{"Name": "Master Build"}, 
-				{"Name": "Sonar Smash"}, 
-				{"Name": "Target"},
-				{"Name": "Technology"}
-			]
+			"ID": 14,
+			"Name": "Benny"
 		}]
 	},{
 		"PackName" : "Cragger",
@@ -176,14 +108,8 @@
 		"PackNumber": 71223,
 		"Wave": 1,
 		"Characters" : [{
-			"Name": "Cragger",
-			"Abilities": [
-				{"Name": "Chi"},
-				{"Name": "Dive"}, 
-				{"Name": "Hazard Protection"}, 
-				{"Name": "Super Strength"}, 
-				{"Name": "Super Strength Handles"}
-			]
+			"ID": 15,
+			"Name": "Cragger"
 		}]
 	},{
 		"PackName" : "Cyborg",
@@ -191,15 +117,8 @@
 		"PackNumber": 71210,
 		"Wave": 1,
 		"Characters" : [{
-			"Name": "Cyborg",
-			"Abilities": [
-				{"Name": "Big Transform"},
-				{"Name": "Dive"},
-				{"Name": "Laser"}, 
-				{"Name": "Super Strength"}, 
-				{"Name": "Target"},
-				{"Name": "Technology"}
-			]
+			"ID": 16,
+			"Name": "Cyborg"
 		}]
 	},{
 		"PackName" : "Emmet",
@@ -207,12 +126,8 @@
 		"PackNumber": 71212,
 		"Wave": 1,
 		"Characters" : [{
-			"Name": "Emmet",
-			"Abilities": [
-				{"Name": "Drill"},
-				{"Name": "Fix-It"},
-				{"Name": "Master Build"}
-			]
+			"ID": 17,
+			"Name": "Emmet"
 		}]
 	},{
 		"PackName" : "Eris",
@@ -220,13 +135,8 @@
 		"PackNumber": 71213,
 		"Wave": 1,
 		"Characters" : [{
-			"Name": "Eris",
-			"Abilities": [
-				{"Name": "Chi"},
-				{"Name": "Flying"}, 
-				{"Name": "Super Strength"}, 
-				{"Name": "Target"}
-			]
+			"ID": 18,
+			"Name": "Eris"
 		}]
 	},{
 		"PackName" : "Gimli",
@@ -234,11 +144,8 @@
 		"PackNumber": 71220,
 		"Wave": 1,
 		"Characters" : [{
-			"Name": "Gimli",
-			"Abilities": [
-				{"Name": "Mini Access"}, 
-				{"Name": "Super Strength"}
-			]
+			"ID":19,
+			"Name": "Gimli"
 		}]
 	},{
 		"PackName" : "Gollum",
@@ -246,14 +153,8 @@
 		"PackNumber": 71218,
 		"Wave": 1,
 		"Characters" : [{
-			"Name": "Gollum",
-			"Abilities": [
-				{"Name": "Acrobat"}, 
-				{"Name": "Boomerang"}, 
-				{"Name": "Dive"}, 
-				{"Name": "Mini Access"},
-				{"Name": "Silver Lego Blowup"}
-			]
+			"ID": 20,
+			"Name": "Gollum"
 		}]
 	},{
 		"PackName" : "Jay",
@@ -261,15 +162,83 @@
 		"PackNumber": 71215,
 		"Wave": 1,
 		"Characters" : [{
-			"Name": "Jay",
-			"Abilities": [
-				{"Name": "Acrobat"},
-				{"Name": "Electricity"}, 
-				{"Name": "Fix-It"}, 
-				{"Name": "Intelligence"},
-				{"Name": "Spinjitzu"}, 
-				{"Name": "Stealth"}
-			]
+			"ID": 21,
+			"Name": "Jay"
+		}]
+	},{
+		"PackName" : "Wicked Witch",
+		"PackType" : "Fun",
+		"packNumber": 71216,
+		"Wave": 1,
+		"Characters" : [{
+			"ID": 22,
+			"Name": "Wicked Witch"
+		}]
+	},{
+		"PackName" : "Wonder Woman",
+		"PackType" : "Fun",
+		"packNumber": 71209,
+		"Wave": 1,
+		"Characters" : [{
+			"ID": 23,
+			"Name": "Wonder Woman"
+		}]
+	},{
+		"PackName" : "Zane",
+		"PackType" : "Fun",
+		"packNumber": 71217,
+		"Wave": 1,
+		"Characters" : [{
+			"Name": "Zane",
+			"Abilities": ["Acrobat", "Boomerang", "Dive", "Spinjitzu", "Stealth", "X-Ray Vision"]
+		}]
+	},{
+		"PackName" : "Doctor Who",
+		"PackType" : "Level",
+		"packNumber": 71204,
+		"Wave": 2,
+		"Characters" : [{
+			"Name": "The Doctor",
+			"Abilities": ["Doctor Regen", "Fix-It", "Hacking", "Intelligence", "Sonar Smash", "Tardis Access", "Technology"]
+		}]
+	},{
+		"PackName" : "Cole & Kai",
+		"PackType" : "Team",
+		"packNumber": 71207,
+		"Wave": 2,
+		"Characters" : [{
+			"Name": "Cole",
+			"Abilities": ["Acrobat", "Laser Deflector", "Spinjitzu", "Stealth", "Super Strength"]
+		},{
+			"Name": "Kai",
+			"Abilities": ["Acrobat", "Laser Deflector", "Spinjitzu", "Stealth"]
+		}]
+	},{
+		"PackName" : "Bart Simpson",
+		"PackType" : "Fun",
+		"packNumber": 71211,
+		"Wave": 2,
+		"Characters" : [{
+			"Name": "Bart Simpson",
+			"Abilities": ["Mini Access", "Target"]
+		}]
+	},{
+		"PackName" : "Krusty",
+		"PackType" : "Fun",
+		"packNumber": 71227,
+		"Wave": 2,
+		"Characters" : [{
+			"Name": "Krusty",
+			"Abilities": ["Hazard Cleaner", "Water Spray"]
+		}]
+	},{
+		"PackName" : "Unikitty",
+		"PackType" : "Fun",
+		"packNumber": 71231,
+		"Wave": 2,
+		"Characters" : [{
+			"Name": "Krusty",
+			"Abilities": ["Big Transform","Master Build","Rainbow Lego Objects"]
 		}]
 	}
 ]

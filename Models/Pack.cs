@@ -9,7 +9,6 @@ namespace LegoDimensions.Models
         public string PackType { get; set; }
         public int Wave { get; set; }
         public ICollection<Character> Characters { get; set; }
-        public bool IsPurchased { get; set; }
     }
 
 

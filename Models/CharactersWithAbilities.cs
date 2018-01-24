@@ -2,9 +2,10 @@ using System.Collections.Generic;
 
 namespace LegoDimensions.Models
 {
-    public class PurchasedAbilities
+    //associated with characterAbilities.json
+    public class CharacterAbilities
     {
-        public Ability Ability { get; set; }
+        public Ability Abilities { get; set; }
         public List<Character> Characters { get; set; }
     }
 }

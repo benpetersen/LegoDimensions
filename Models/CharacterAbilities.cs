@@ -6,6 +6,6 @@ namespace LegoDimensions.Models
     public class CharacterAbilities
     {
         public Character Character { get; set; }
-        public List<Abilities> Abilities { get; set; }
+        public List<Ability> Abilities { get; set; }
     }
 }

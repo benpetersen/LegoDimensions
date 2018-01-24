@@ -25,64 +25,64 @@ namespace LegoDimensions.Controllers
     [Route("api/ability")]
     public class AbilityController : Controller
     {
-        private readonly CharactersWithAbilityContext _context;
-        private readonly PackContext _packContext;
+        private readonly LegoDimensionsContext _context;
 
-        public AbilityController(CharactersWithAbilityContext context, PackContext packContext)
+        public AbilityController(LegoDimensionsContext context)
         {
             _context = context;
-            _packContext = packContext;
         }
 
         [HttpGet]
         public IActionResult GetAbilitiesAndCharacters(long id)
         {
-            //filter on purchased packs and return character abilities
-            var purchasedPacks = _packContext.Packs.Where(p => p.IsPurchased == true );
-            
-            //List<CharactersWithAbility> ownedCharactersWithAbility = new List<CharactersWithAbility>();
+
+            var purchasedPacks = _context.Packs
+                .Where(p => p.Characters.Any(c => c.IsPurchased == true ));
 
             foreach(Pack pack in purchasedPacks)
             {
                 /*
-                iterate through each pack, each character and add to AbilitiesOwned Character list
+                iterate through each owned pack, each character and add to AbilitiesOwned Character list
                 
                     EX:
                     AbilityName: 'Acrobat',
                     OwnedCharacterWithAbility: Wildstyle, Chell, Gollum
                  */
-                 //ToList'ing ICollection to get access to foreach's current and next
-                var characters = pack.Characters.ToList();
-                foreach(Character character in characters)
-                {
-                    var abilities = character.Abilities.ToList();
-                    foreach(Ability ability in abilities)
-                    {
-                        Ability currentAbility = ability;
-                        Character currentCharacter = character;
+                 
+                 //TODO: Build out list as an endpoint to call using CharactersWithAbilities.cs
 
-                        //may want to create a finished object before submitting to db/context
-                        CharactersWithAbility stuff = new CharactersWithAbility();
-                        stuff.AbilityName = currentAbility.Name;
 
-                        //Get ability set
-                        var contextAbility = _context.OwnedCharactersWithAbility.Where(a => a.AbilityName == currentAbility.Name).FirstOrDefault();
+                // var characters = pack.Characters.ToList();
+                // foreach(Character character in characters)
+                // {
+                //     var abilities = character.Abilities.ToList();
+                //     foreach(Ability ability in abilities)
+                //     {
+                //         Ability currentAbility = ability;
+                //         Character currentCharacter = character;
+
+                //         //may want to create a finished object before submitting to db/context
+                //         CharacterAbilities stuff = new CharacterAbilities();
+                //         stuff.AbilityName = currentAbility.Name;
+
+                //         //Get ability set
+                //         var contextAbility = _context.CharacterAbilities.Where(a => a.AbilityName == currentAbility.Name).FirstOrDefault();
 
                         
                         
-                        if(contextAbility != null){
-                            contextAbility.Characters.Add(
-                                currentCharacter.Name
-                            );
-                        }else{
-                            stuff.Characters.Add(currentCharacter.Name);
+                //         if(contextAbility != null){
+                //             contextAbility.Characters.Add(
+                //                 currentCharacter.Name
+                //             );
+                //         }else{
+                //             stuff.Characters.Add(currentCharacter.Name);
 
-                            _context.OwnedCharactersWithAbility.Add(
-                                stuff
-                            );
-                        }
-                    }
-                }
+                //             _context.CharacterAbilities.Add(
+                //                 stuff
+                //             );
+                //         }
+                //     }
+                // }
             }
 
             _context.SaveChanges();

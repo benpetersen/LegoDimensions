@@ -4,10 +4,10 @@ namespace LegoDimensions.Models
 {
     public class CharactersWithAbilityContext: DbContext
     {
-        public CharactersWithAbilityContext(DbContextOptions<CharactersWithAbilityContext> options)
+        public CharactersWithAbilityContext(DbContextOptions<CharacterAbilitiesContext> options)
             : base(options)
         {
         }
-        public DbSet<CharactersWithAbility> OwnedCharactersWithAbility { get; set; }
+        public DbSet<CharacterAbilities> CharacterAbilities { get; set; }
     }
 }

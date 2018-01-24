@@ -30,10 +30,25 @@ namespace LegoDimensions.Controllers
 		public PackController(PackContext context)
 		{
 			_context = context;
+			//Load Packs
 			if(_context.Packs.Count() == 0)
 			{
 				List<Pack> packs = LoadPacks();
 				packs.ForEach(p => _context.Packs.Add(p));
+				_context.SaveChanges();
+			}
+			//Load Character Abilities
+			if(_context.CharacterAbilities.Count() == 0)
+			{
+				List<CharacterAbilities> characterAbilities = LoadCharacterAbilities();
+				characterAbilities.ForEach(c => _context.CharacterAbilities.Add(c));
+				_context.SaveChanges();
+			}
+			//Load Abilities (to use as a definitive list, which ones don't I own)
+			if(_context.Abilities.Count() == 0)
+			{
+				List<Abilities> abilities = LoadAllAbilities();
+				abilities.ForEach(c => _context.Abilities.Add(c));
 				_context.SaveChanges();
 			}
 		}
@@ -46,6 +61,28 @@ namespace LegoDimensions.Controllers
 				packs = JsonConvert.DeserializeObject<List<Pack>>(json);
 			}
 			return packs;
+		}
+
+		public List<CharacterAbilities> LoadCharacterAbilities()
+		{
+			List<Pack> packs = new List<Pack>();
+			using(StreamReader r = new StreamReader("characterAbilities.json"))
+			{
+				string json = r.ReadToEnd();
+				characterAbilities = JsonConvert.DeserializeObject<List<CharacterAbilities>>(json);
+			}
+			return characterAbilities;
+		}
+
+		public List<Ability> LoadAllAbilities()
+		{
+			List<Pack> packs = new List<Pack>();
+			using(StreamReader r = new StreamReader("abilities.json"))
+			{
+				string json = r.ReadToEnd();
+				characterAbilities = JsonConvert.DeserializeObject<List<Ability>>(json);
+			}
+			return characterAbilities;
 		}
 
 		[HttpGet]
@@ -78,6 +115,7 @@ namespace LegoDimensions.Controllers
 			{
 				character.IsPurchased = item.IsPurchased;
 				//TODO: assign character to pack if it's not by reference
+				AddPurchasedCharactersToAbilityList(character);
 			}
 			//Add new abilities to Abilities
 
@@ -86,24 +124,27 @@ namespace LegoDimensions.Controllers
 			return new NoContentResult();
 		}
 
-		private void AddPurchasedCharactersToAbilityList(Pack pack)
+		private void AddPurchasedCharactersToAbilityList(Character character)
 		{
 			//Get Character abilities using character.ID (foreach inside Packs)
 			//Add packs characters to ability list using pack.ID
 
-			var characters = pack.Characters.ToList();
-			foreach(Character character in characters){
-				//Match character.ID to CharacterAbility.ID (characterAbilities.json), which gets abilities for each character
-				//Foreach ability -  .Where(character.abilityName == ability)
-				//Add character name and ID to AbilityList
+			//Match character.ID to CharacterAbility.ID (characterAbilities.json), which gets abilities for each character
+			//Foreach ability -  .Where(character.abilityName == ability)
+			//Add character name and ID to AbilityList
+			
+			var characterAbilities = _context.CharacterAbilities.Where(a => a.ID == character.ID).FirstOrDefault();
 
-				var contextAbility = _context.OwnedCharactersWithAbility.Where(a => a.AbilityName == currentAbility.Name).FirstOrDefault();
-				if(contextAbility != null){
-					contextAbility.Characters.Add(
-						character.ID
-						character.Name
-					);
-				}
+			var abilities = characterAbilities.Abilities.ToList();
+			foreach(Ability ability in abilities){
+				//Abilities aren't mapped by ID
+			}
+
+			if(contextAbility != null){
+				contextAbility.Characters.Add(
+					character.ID
+					character.Name
+				);
 			}
 			
 			if(contextAbility != null){

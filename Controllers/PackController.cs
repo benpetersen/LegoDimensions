@@ -29,60 +29,66 @@ namespace LegoDimensions.Controllers
 		
 		public PackController(LegoDimensionsContext context)
 		{
+			context.ChangeTracker.AutoDetectChangesEnabled = false;
 			_context = context;
+
 			//Load Packs
 			if(_context.Packs.Count() == 0)
 			{
-				List<Pack> packs = LoadPacks();
-				packs.ForEach(p => _context.Packs.Add(p));
-				_context.SaveChanges();
+				LoadPacks();
 			}
 			//Load Character Abilities
 			if(_context.CharacterAbilities.Count() == 0)
 			{
-				List<CharacterAbilities> characterAbilities = LoadCharacterAbilities();
-				characterAbilities.ForEach(c => _context.CharacterAbilities.Add(c));
-				_context.SaveChanges();
+				LoadCharacterAbilities();
 			}
-			//Load Abilities (to use as a definitive list, which ones don't I own)
+			//Load Abilities (to use as a definitive list to compare which ones don't I own)
 			if(_context.Abilities.Count() == 0)
 			{
-				List<Ability> abilities = LoadAllAbilities();
-				abilities.ForEach(c => _context.Abilities.Add(c));
-				_context.SaveChanges();
+				LoadAllAbilities();
 			}
 		}
-		public List<Pack> LoadPacks()
+		public void LoadPacks()
 		{
-			List<Pack> packs = new List<Pack>();
+			dynamic packs;
+			//List<Pack> packs = new List<Pack>();
 			using(StreamReader r = new StreamReader("packs.json"))
 			{
 				string json = r.ReadToEnd();
 				packs = JsonConvert.DeserializeObject<List<Pack>>(json);
 			}
-			return packs;
+			foreach (Pack pack in packs){
+				_context.Packs.Add(pack);
+			}
+			_context.SaveChanges();
 		}
 
-		public List<CharacterAbilities> LoadCharacterAbilities()
+		public void LoadCharacterAbilities()
 		{
-			List<CharacterAbilities> characterAbilities = new List<CharacterAbilities>();
+			dynamic characterAbilities;
 			using(StreamReader r = new StreamReader("characterAbilities.json"))
 			{
 				string json = r.ReadToEnd();
 				characterAbilities = JsonConvert.DeserializeObject<List<CharacterAbilities>>(json);
 			}
-			return characterAbilities;
+			foreach (CharacterAbilities character in characterAbilities){
+				_context.CharacterAbilities.Add(character);
+			}
+			_context.SaveChanges();
 		}
 
-		public List<Ability> LoadAllAbilities()
+		public void LoadAllAbilities()
 		{
-			List<Ability> abilities = new List<Ability>();
 			using(StreamReader r = new StreamReader("abilities.json"))
 			{
 				string json = r.ReadToEnd();
-				abilities = JsonConvert.DeserializeObject<List<Ability>>(json);
+				dynamic abilities = JsonConvert.DeserializeObject<List<Ability>>(json);
+
+				foreach (Ability ability in abilities){
+					_context.Abilities.Add(ability);
+				}
+				_context.SaveChanges();
 			}
-			return abilities;
 		}
 
 		[HttpGet]
@@ -98,13 +104,13 @@ namespace LegoDimensions.Controllers
 		{
 			//Pack is purchased, set each character as owned.
 			//Add abilities to owned list
-			//
-			if (item == null || item.ID != id)
+			
+			if (item == null || item.PackID != id)
 			{
 				return BadRequest();
 			}
 
-			var pack = _context.Packs.FirstOrDefault(t => t.ID == id);
+			var pack = _context.Packs.FirstOrDefault(t => t.PackID == id);
 			if (pack == null)
 			{
 				return NotFound();
@@ -126,19 +132,27 @@ namespace LegoDimensions.Controllers
 
 		private void AddPurchasedCharactersToAbilityList(Character character)
 		{
-			//Get Character abilities using character.ID (foreach inside Packs)
-			//Add packs characters to ability list using pack.ID
-
-			//Match character.ID to CharacterAbility.ID (characterAbilities.json), which gets abilities for each character
-			//Foreach ability -  .Where(character.abilityName == ability)
-			//Add character name and ID to AbilityList
-			
+			//Add character abilities to owned ability list
 			var _character = _context.CharacterAbilities.Where(a => a.Character.ID == character.ID).FirstOrDefault();
+			_character.Character.IsPurchased = true;
 
 			var abilities = _character.Abilities.ToList();
 			foreach(Ability ability in abilities){
-				//Abilities aren't mapped by ID
-
+				//Add a character associated to an ability if it's available
+				var purchased = _context.PurchasedAbilities.Where(a => a.Ability.Name == ability.Name).FirstOrDefault();
+				if(purchased != null){
+					purchased.Characters.Add(character);
+				}else{
+					//for each of the character abilites that aren't in the list, add it
+					var newlyPurchased = new PurchasedAbilities(
+						ability,
+						character
+					);
+					_context.PurchasedAbilities.Add(
+						newlyPurchased
+					);
+				}
+				
 			}
 
 			// if(contextAbility != null){

@@ -9,8 +9,7 @@ namespace LegoDimensions
     {       
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<PackContext>(opt => opt.UseInMemoryDatabase("PackList"));
-            services.AddDbContext<CharactersWithAbilityContext>(opt => opt.UseInMemoryDatabase("PackList"));
+            services.AddDbContext<LegoDimensionsContext>(opt => opt.UseInMemoryDatabase("LegoDimensions"));
             services.AddMvc();
         }
 

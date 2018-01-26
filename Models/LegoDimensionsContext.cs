@@ -11,6 +11,6 @@ namespace LegoDimensions.Models
         public DbSet<Pack> Packs { get; set; }
         public DbSet<Ability> Abilities { get; set; }
         public DbSet<CharacterAbilities> CharacterAbilities { get; set; }
-        public DbSet<CharacterAbilities> PurchasedAbilities { get; set; }
+        public DbSet<PurchasedAbilities> PurchasedAbilities { get; set; }
     }
 }

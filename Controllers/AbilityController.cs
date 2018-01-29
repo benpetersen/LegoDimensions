@@ -36,7 +36,7 @@ namespace LegoDimensions.Controllers
         {
             //Return purchased characters with a specific ability
             PurchasedAbilities data = _context.PurchasedAbilities.Where(a => a.AbilityName == ability).FirstOrDefault();
-            var apiResult = new ApiResult(data.Characters, ability);
+            var apiResult = new ApiResult(data.CharacterList, ability);
             return new ObjectResult(apiResult);
         }
 
@@ -45,12 +45,12 @@ namespace LegoDimensions.Controllers
     public class ApiResult
     {
         public ApiResult(){}
-        public ApiResult(string characters, string searchTerm){
+        public ApiResult(List<string> characters, string searchTerm){
             Characters = characters;
             SearchTerm = searchTerm;
         }
         public string SearchTerm { get; set; }
-        public string Characters { get; set; }
+        public List<string> Characters { get; set; }
     }
 
 }

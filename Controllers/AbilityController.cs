@@ -22,7 +22,7 @@ namespace LegoDimensions.Controllers
 
     */
 
-    [Route("api/ability")]
+    [Route("api/charactersWithAbility")]
     public class AbilityController : Controller
     {
         private readonly LegoDimensionsContext _context;
@@ -31,70 +31,26 @@ namespace LegoDimensions.Controllers
         {
             _context = context;
         }
-
-        [HttpGet]
-        public IActionResult GetAbilitiesAndCharacters(long id)
+        [Route("{ability}")]
+        public IActionResult GetPurchasedAbilitiesAndCharacters(string ability)
         {
-
-            // var purchasedPacks = _context.Packs
-            //     .Where(p => p.Characters.Any(c => c.IsPurchased == true ));
-
-            // foreach(Pack pack in purchasedPacks)
-            // {
-                /*
-                iterate through each owned pack, each character and add to AbilitiesOwned Character list
-                
-                    EX:
-                    AbilityName: 'Acrobat',
-                    OwnedCharacterWithAbility: Wildstyle, Chell, Gollum
-                 */
-                 
-                 //TODO: Build out list as an endpoint to call using CharactersWithAbilities.cs
-
-
-                // var characters = pack.Characters.ToList();
-                // foreach(Character character in characters)
-                // {
-                //     var abilities = character.Abilities.ToList();
-                //     foreach(Ability ability in abilities)
-                //     {
-                //         Ability currentAbility = ability;
-                //         Character currentCharacter = character;
-
-                //         //may want to create a finished object before submitting to db/context
-                //         CharacterAbilities stuff = new CharacterAbilities();
-                //         stuff.AbilityName = currentAbility.Name;
-
-                //         //Get ability set
-                //         var contextAbility = _context.CharacterAbilities.Where(a => a.AbilityName == currentAbility.Name).FirstOrDefault();
-
-                        
-                        
-                //         if(contextAbility != null){
-                //             contextAbility.Characters.Add(
-                //                 currentCharacter.Name
-                //             );
-                //         }else{
-                //             stuff.Characters.Add(currentCharacter.Name);
-
-                //             _context.CharacterAbilities.Add(
-                //                 stuff
-                //             );
-                //         }
-                //     }
-                // }
-            //}
-
-            // _context.SaveChanges();
-
-
-            // if(purchasedPacks == null){
-            //     return NotFound();
-            // }
-            //return new ObjectResult(purchasedPacks);
-            return new ObjectResult(null);
+            //Return purchased characters with a specific ability
+            PurchasedAbilities data = _context.PurchasedAbilities.Where(a => a.AbilityName == ability).FirstOrDefault();
+            var apiResult = new ApiResult(data.Characters, ability);
+            return new ObjectResult(apiResult);
         }
 
+    }
+
+    public class ApiResult
+    {
+        public ApiResult(){}
+        public ApiResult(string characters, string searchTerm){
+            Characters = characters;
+            SearchTerm = searchTerm;
+        }
+        public string SearchTerm { get; set; }
+        public string Characters { get; set; }
     }
 
 }

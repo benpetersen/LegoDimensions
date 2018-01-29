@@ -133,13 +133,14 @@ namespace LegoDimensions.Controllers
 			//Add character abilities to owned ability list
 			_character.IsPurchased = true;
 
-			foreach(string ability in _character.AbilityList){
+			foreach(string ability in _character.AbilityList)
+			{
 				//Add a character associated to an ability if it's available
 				var purchased = _context.PurchasedAbilities.Where(a => a.AbilityName == ability).FirstOrDefault();
-				if(purchased != null){
-					purchased.Characters = purchased.Characters + "," + _character.CharacterName;
-				}else{
-					//similar to sql pivot, characters with that ability - instead of - abilities from a character
+				
+				if(purchased == null)
+				{
+					//Does not own ability - insert ability and characters with that ability to list. It's similar to sql pivot
 					var newlyPurchased = new PurchasedAbilities();
 					newlyPurchased.CharacterID = _character.CharacterID;
 					newlyPurchased.AbilityName = ability;
@@ -148,8 +149,15 @@ namespace LegoDimensions.Controllers
 					_context.PurchasedAbilities.Add(
 						newlyPurchased
 					);
+				}else if(!purchased.Characters.Contains(_character.CharacterName))
+				{
+					//Owns ability and Character isn't in list already - Update database
+					_context.PurchasedAbilities.Attach(purchased);
+					var entry = _context.Entry(purchased);
+					entry.Property(p => p.Characters).IsModified = true;
+					purchased.Characters = purchased.Characters + "," + _character.CharacterName;
+					_context.SaveChanges();
 				}
-				
 			}
 		}
 

@@ -4,25 +4,21 @@
 		"CharacterID": 1,
 		"CharacterName": "Green Arrow",
 		"Abilities": "Acrobat,Grapple,Pole Vault,Target"
-	},
-	{
+	},{
 		"ID": 2,
 		"CharacterID": 2,
 		"CharacterName": "Supergirl",
 		"Abilities": "Dig,Dive,Flying,Freeze Breath,Grapple,Invulnerability,Lantern Constructs,Laser,Super Strength,X-Ray Vision"
-	},
-	{
+	},{
 		"ID": 3,
 		"CharacterID": 3,
 		"CharacterName": "Batman",
 		"Abilities": "Boomerang,Grapple,Stealth"
-	},
-	{
+	},{
 		"ID": 4,
 		"CharacterID": 4,
 		"CharacterName": "Gandalf",
 		"Abilities": "Illumination,Magic,Magical Shield"
-		
 	},{      
 		"ID": 5,
 		"CharacterID": 5,
@@ -193,5 +189,240 @@
 		"CharacterID": 37,
 		"CharacterName": "Cyberman",
 		"Abilities": "Dive,Drone Access,Hacking,Mind Control,Silver Lego Blowup,Technology,X-Ray Vision"
+	}, {
+		"ID": 38,
+		"CharacterID": 38,
+		"CharacterName": "Doc Brown",
+		"Abilities": "Drone Access,Fix-It,Hacking,Intelligence,Technology"
+	}, {
+		"ID": 39,
+		"CharacterID": 39,
+		"CharacterName": "Sensei Wu",
+		"Abilities": "Acrobat,Glide,Pole Vault,Spinjitzu,Stealth"
+	}, {
+		"ID": 40,
+		"CharacterID": 40,
+		"CharacterName": "Gamer Kid",
+		"Abilities": "Invulnerability,Laser,Speed,Stealth,Super Strength"
+	}, {
+		"ID": 41,
+		"CharacterID": 41,
+		"CharacterName": "Aquaman",
+		"Abilities": "Atlantis,Dive,Growth,Hazard Cleaner,Water Spray"
+	}, {
+		"ID": 42,
+		"CharacterID": 42,
+		"CharacterName": "Stay Puft",
+		"Abilities": "Big Transform,Hazard Protection,Super Strength,Super Strength Handles"
+	}, {
+		"ID": 43,
+		"CharacterID": 43,
+		"CharacterName": "Superman",
+		"Abilities": "Dive,Flying,Freeze Breath,Invulnerability,Laser,Super Strength,Super Strength Handles,X-Ray Vision"
+	}, {
+		"ID": 44,
+		"CharacterID": 44,
+		"CharacterName": "Bane",
+		"Abilities": "Big Transform,Hazard Protection,Super Strength,Super Strength Handles"
+	}, {
+		"ID": 45,
+		"CharacterID": 45,
+		"CharacterName": "Lloyd",
+		"Abilities": "Acrobat,Illumination,Laser Deflector,Spinjitzu,Stealth"
+	}, {
+		"ID": 46,
+		"CharacterID": 46,
+		"CharacterName": "Slimer",
+		"Abilities": "Boomerang,Dig,Flying,Hazard Cleaner,Hazard Protection,Illumination,Mini Access,Slurp Access,Sonar Smash"
+	}, {
+		"ID": 47,
+		"CharacterID": 47,
+		"CharacterName": "Abbey Yates",
+		"Abilities": "Character Change,Charge Transfer,Fix-It,Ghost Puzzles,Ghost Trap,Hazard Protection,Intelligence,Laser,P.K.E. Meter,Super Strength,Super Strength Handles,Suspend Ghosts"
+	}, {
+		"ID": 48,
+		"CharacterID": 48,
+		"CharacterName": "Erin Gilbert",
+		"Abilities": "Character Change,Ghost Trap,Hazard Protection,Intelligence,Laser,Silver Lego Blowup,Suspend Ghosts,Technology"
+	}, {
+		"ID": 49,
+		"CharacterID": 49,
+		"CharacterName": "Jilian Holtzmann",
+		"Abilities": "Character Change,Fix-It,Ghost Trap,Grapple,Hazard Protection,Intelligence,Laser,Rope Swings,Suspend Ghosts,Technology"
+	}, {
+		"ID": 50,
+		"CharacterID": 50,
+		"CharacterName": "Patty Tolan",
+		"Abilities": "Character Change,Ghost Chipper,Ghost Trap,Intelligence,Laser,Super Strength,Super Strength Handles,Suspend Ghosts,Technology"
+	}, {
+		"ID": 51,
+		"CharacterID": 51,
+		"CharacterName": "Finn",
+		"Abilities": "Acrobat,Cursed Red Lego Objects,Grapple,Laser,Laser Deflector,Rope Swings,Sword Switch,Target,Vine Cut,Weapon Switch"
+	}, {
+		"ID": 52,
+		"CharacterID": 52,
+		"CharacterName": "Ethan Hunt",
+		"Abilities": "Acrobat,Dive,Drone Access,Fuse Box,Grapple,Magno Gloves,Rope Swings,Scan Disguise,Silver Lego Blowup,Stealth,Target,Technology,X-Ray Vision"
+	}, {
+		"ID": 53,
+		"CharacterID": 53,
+		"CharacterName": "Jake",
+		"Abilities": "Big Transform,Dig,Dive,Drill,Drone Access,Grapple,Gyrosphere Switch,Illumination,Mini Access,Rope Swings,Shapeshift,Slurp Access,Sonar Smash,Super Strength,Super Strength Handles,Target,Tracking"
+	}, {
+		"ID": 54,
+		"CharacterID": 54,
+		"CharacterName": "Lumpy Space Princess",
+		"Abilities": "Boomerang,Hazard Protection,Mini Access,Rainbow Lego Objects,Slurp Access,Target"
+	}, {
+		"ID": 55,
+		"CharacterID": 55,
+		"CharacterName": "Harry Potter",
+		"Abilities": "Apparate Access,Diffindo,Flying,Growth,Hazard Cleaner,Illumination,Laser Deflector,Magic,Magical Shield,Parseltongue Doors,Silver Lego Blowup,Stealth,Target,Water Spray"
+	}, {
+		"ID": 56,
+		"CharacterID": 56,
+		"CharacterName": "Voldemort",
+		"Abilities": "Apparate Access,Diffindo,Dark Arts,Flying,Growth,Hazard Cleaner,Illumination,Laser Deflector,Magic,Magical Shield,Mind Control,Parseltongue Doors,Silver Lego Blowup,Target,Water Spray"
+	}, {
+		"ID": 57,
+		"CharacterID": 57,
+		"CharacterName": "B.A. Baracus",
+		"Abilities": "A-Team Master Build,Character Change,Fix-It,I Ain't Getten On No Plane,Laser Deflector,Silver Lego Blowup,Super Strength,Super Strength Handles,Target"
+	}, {
+		"ID": 58,
+		"CharacterID": 58,
+		"CharacterName": "Hannibal Smith",
+		"Abilities": "Character Change,Silver Lego Blowup,Target"
+	}, {
+		"ID": 59,
+		"CharacterID": 59,
+		"CharacterName": "Faceman Peck",
+		"Abilities": "Character Change,Silver Lego Blowup,Target"
+	}, {
+		"ID": 60,
+		"CharacterID": 60,
+		"CharacterName": "Murdock",
+		"Abilities": "Character Change,Silver Lego Blowup,Target"
+	}, {
+		"ID": 61,
+		"CharacterID": 61,
+		"CharacterName": "Newt Scamander",
+		"Abilities": "Apparate Access,Character Change,Diffindo,Fantastical Briefcase,Fix-It,Growth,Hazard Cleaner,Illumination,Intelligence,Laser Deflector,Lock Picking,Magic,Magical Shield,Silver Lego Blowup,Stealth,Target,Water Spray"
+	}, {
+		"ID": 62,
+		"CharacterID": 62,
+		"CharacterName": "Jacob Kowalski",
+		"Abilities": "Character Change,Silver Lego Blowup"
+	}, {
+		"ID": 63,
+		"CharacterID": 63,
+		"CharacterName": "Sonic",
+		"Abilities": "Acrobat,Grind Rails,Invulnerability,Laser Deflector,Speed,Super Strength"
+	}, {
+		"ID": 64,
+		"CharacterID": 64,
+		"CharacterName": "Gizmo",
+		"Abilities": "Acrobat,Dig,Grapple,Mini Access,Rope Swings,Silver Lego Blowup,Target,Vine Cut"
+	}, {
+		"ID": 65,
+		"CharacterID": 65,
+		"CharacterName": "Strip",
+		"Abilities": "Acrobat,Dig,Target,Vine Cut"
+	}, {
+		"ID": 66,
+		"CharacterID": 66,
+		"CharacterName": "E.T.",
+		"Abilities": "Fix-It,Growth,Heart Regen,Illumination,Laser Deflector,Magic,Mini Access,Stealth"
+	}, {
+		"ID": 67,
+		"CharacterID": 67,
+		"CharacterName": "Marceline",
+		"Abilities": "Acrobat,Cursed Red Lego Objects,Dig,Flying,Heart Regen,Laser Deflector,Magic,Mind Control,Mini Access,Slurp Access,Sonar Smash,Stealth,Super Strength,Tracking,Vine Cut"
+	}, {
+		"ID": 68,
+		"CharacterID": 68,
+		"CharacterName": "Tina Goldstein",
+		"Abilities": "Acrobat,Apparate Access,Character Change,Diffindo,Growth,Hazard Cleaner,Illumination,Laser Deflector,Magic,Magical Shield,Silver Lego Blowup,Stealth,Target,Water Spray"
+	}, {
+		"ID": 69,
+		"CharacterID": 69,
+		"CharacterName": "Queenie Goldstein",
+		"Abilities": "Apparate Access,Character Change,Diffindo,Growth,Hazard Cleaner,Illumination,Laser Deflector,Magic,Magical Shield,Mind Control,Pole Vault,Mind Control,Silver Lego Blowup,Target,Water Spray"
+	}, {
+		"ID": 70,
+		"CharacterID": 70,
+		"CharacterName": "Robin",
+		"Abilities": "Acrobat,Dive,Fix-It,Illumination,Laser Deflector,Pole Vault,Suit Rip,Vent Access"
+	}, {
+		"ID": 71,
+		"CharacterID": 71,
+		"CharacterName": "Batgirl",
+		"Abilities": "Boomerang,Detective Mode,Grapple,High Security Access,Stealth"
+	}, {
+		"ID": 72,
+		"CharacterID": 72,
+		"CharacterName": "Excalibur Batman",
+		"Abilities": "Boomerang,Grapple,Laser Deflector,Master Build,Stealth,Super Strength,Sword Switch"
+	}, {
+		"ID": 73,
+		"CharacterID": 73,
+		"CharacterName": "Michael Knight",
+		"Abilities": "Acrobat,Hacking,Technology,Tracking,X-Ray Vision"
+	}, {
+		"ID": 74,
+		"CharacterID": 74,
+		"CharacterName": "Lego Batman",
+		"Abilities": "Boomerang,Detective Mode,Glide,Grapple,Master Build,Merch Gun,Rope Swings,Stealth"
+	}, {
+		"ID": 75,
+		"CharacterID": 75,
+		"CharacterName": "Andy",
+		"Abilities": "Character Change"
+	}, {
+		"ID": 76,
+		"CharacterID": 76,
+		"CharacterName": "Brand",
+		"Abilities": "Character Change"
+	}, {
+		"ID": 77,
+		"CharacterID": 77,
+		"CharacterName": "Chuck",
+		"Abilities": "Character Change"
+	}, {
+		"ID": 78,
+		"CharacterID": 78,
+		"CharacterName": "Data",
+		"Abilities": "Character Change"
+	}, {
+		"ID": 79,
+		"CharacterID": 79,
+		"CharacterName": "Mikey",
+		"Abilities": "Character Change,Mini Access"
+	}, {
+		"ID": 80,
+		"CharacterID": 80,
+		"CharacterName": "Mouth",
+		"Abilities": "Character Change"
+	}, {
+		"ID": 81,
+		"CharacterID": 81,
+		"CharacterName": "Sloth",
+		"Abilities": "Character Change,Super Strength"
+	}, {
+		"ID": 82,
+		"CharacterID": 82,
+		"CharacterName": "Stef",
+		"Abilities": "Character Change"
+	}, {
+		"ID": 83,
+		"CharacterID": 83,
+		"CharacterName": "Chase McCain",
+		"Abilities": "Acrobat,Detective Scanner,Drill,Grapple,Silver Lego Blowup,Tracking,Uniform Changing,Water Spray"
+	}, {
+		"ID": 84,
+		"CharacterID": 84,
+		"CharacterName": "Hermoine Granger",
+		"Abilities": "Apparate Access,Diffindo,Growth,Hazard Cleaner,Illumination,Intelligence,Laser Deflector,Magic,Magical Shield,Silver Lego Blowup,Target,Water Spray"
 	}
 ]

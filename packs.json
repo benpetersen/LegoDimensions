@@ -5,12 +5,390 @@
 		"PackType" : "Level",
 		"Wave": 0,
 		"CharacterIds" : "1"
-	},
-	{
+	},{
 		"PackID": 1,
 		"PackName" : "PS4 Exclusive",
 		"PackType" : "Level",
 		"Wave": 1,
 		"CharacterIds" : "2"
-	}
+	},{
+		"PackID": 2,
+		"PackName" : "Starter Pack",
+		"PackType" : "Story",
+		"Wave": 1,
+		"PackNumber": 71170,
+		"CharacterIds" : "3,4,5"
+	},{
+		"PackID": 3,
+		"PackName" : "Back To The Future",
+		"PackType" : "Level",
+		"PackNumber": 71201,
+		"Wave": 1,
+		"CharacterIds": "6"
+	},{
+		"PackID": 4,
+		"PackName" : "Portal 2",
+		"PackType" : "Level",
+		"PackNumber": 71203,
+		"Wave": 1,
+		"CharacterIds": "7"
+	},{
+		"PackID": 5,
+		"PackName" : "The Simpsons",
+		"PackType" : "Level",
+		"PackNumber": 71202,
+		"Wave": 1,
+		"CharacterIds": "8"		
+	},{
+		"PackID": 6,
+		"PackName" : "Jurassic World",
+		"PackType" : "Team",
+		"PackNumber": 71205,
+		"Wave": 1,
+		"CharacterIds": "9,10"
+	},{
+		"PackID": 7,
+		"PackName" : "Scooby Doo",
+		"PackType" : "Level",
+		"PackNumber": 71206,
+		"Wave": 1,
+		"CharacterIds": "11,12"
+	},{
+		"PackID": 8,
+		"PackName" : "Bad Cop",
+		"PackType" : "Fun",
+		"PackNumber": 71213,
+		"Wave": 1,
+		"CharacterIds": "13"
+	},{
+		"PackID": 9,
+		"PackName" : "Benny",
+		"PackType" : "Fun",
+		"PackNumber": 71214,
+		"Wave": 1,
+		"CharacterIds": "14"
+	},{
+		"PackID": 10,
+		"PackName" : "Cragger",
+		"PackType" : "Fun",
+		"PackNumber": 71223,
+		"Wave": 1,
+		"CharacterIds": "15"
+	},{
+		"PackID": 11,
+		"PackName" : "Cyborg",
+		"PackType" : "Fun",
+		"PackNumber": 71210,
+		"Wave": 1,
+		"CharacterIds": "16"
+	},{
+		"PackID": 12,
+		"PackName" : "Emmet",
+		"PackType" : "Fun",
+		"PackNumber": 71212,
+		"Wave": 1,
+		"CharacterIds": "17"
+	},{
+		"PackID": 13,
+		"PackName" : "Eris",
+		"PackType" : "Fun",
+		"PackNumber": 71213,
+		"Wave": 1,
+		"CharacterIds": "18"
+	},{
+		"PackID": 14,
+		"PackName" : "Gimli",
+		"PackType" : "Fun",
+		"PackNumber": 71220,
+		"Wave": 1,
+		"CharacterIds": "19"
+	},{
+		"PackID": 15,
+		"PackName" : "Gollum",
+		"PackType" : "Fun",
+		"PackNumber": 71218,
+		"Wave": 1,
+		"CharacterIds": "20"
+	},{
+		"PackID": 16,
+		"PackName" : "Jay",
+		"PackType" : "Fun",
+		"PackNumber": 71215,
+		"Wave": 1,
+		"CharacterIds": "21"
+	},{
+		"PackID": 17,
+		"PackName" : "Wicked Witch",
+		"PackType" : "Fun",
+		"packNumber": 71216,
+		"Wave": 1,
+		"CharacterIds": "22"
+	},{
+		"PackID": 18,
+		"PackName" : "Wonder Woman",
+		"PackType" : "Fun",
+		"packNumber": 71209,
+		"Wave": 1,
+		"CharacterIds": "23"
+	},{
+		"PackID": 19,
+		"PackName" : "Zane",
+		"PackType" : "Fun",
+		"packNumber": 71217,
+		"Wave": 1,
+		"CharacterIds": "24"
+	},{
+		"PackID": 20,
+		"PackName" : "Doctor Who",
+		"PackType" : "Level",
+		"packNumber": 71204,
+		"Wave": 2,
+		"CharacterIds": "25"
+	},{
+		"PackID": 21,
+		"PackName" : "Cole & Kai",
+		"PackType" : "Team",
+		"packNumber": 71207,
+		"Wave": 2,
+		"CharacterIds": "26,27"
+	},{
+		"PackID": 22,
+		"PackName" : "Bart Simpson",
+		"PackType" : "Fun",
+		"packNumber": 71211,
+		"Wave": 2,
+		"CharacterIds": "28"
+	},{
+		"PackID": 23,
+		"PackName" : "Krusty",
+		"PackType" : "Fun",
+		"packNumber": 71227,
+		"Wave": 2,
+		"CharacterIds": "29"
+	},{
+		"PackID": 24,
+		"PackName" : "Unikitty",
+		"PackType" : "Fun",
+		"packNumber": 71231,
+		"Wave": 2,
+		"CharacterIds": "30"
+		
+	},{
+	"PackID": 25,
+	"PackName" : "Ghostbusters",
+	"PackType" : "Level",
+	"packNumber": 71228,
+	"Wave": 3,
+	"CharacterIds": "31,32,33,34"
+},{
+	"PackID": 26,
+	"PackName" : "Joker & Harley Quinn",
+	"PackType" : "Team",
+	"packNumber": 71229,
+	"Wave": 3,
+	"CharacterIds": "35,36"
+},{
+	"PackID": 27,
+	"PackName" : "Cyberman",
+	"PackType" : "Fun",
+	"packNumber": 71238,
+	"Wave": 3,
+	"CharacterIds": "37"
+},{
+	"PackID": 28,
+	"PackName" : "Doc Brown",
+	"PackType" : "Fun",
+	"packNumber": 71230,
+	"Wave": 3,
+	"CharacterIds": "38"
+},{
+	"PackID": 29,
+	"PackName" : "Sensei Wu",
+	"PackType" : "Fun",
+	"packNumber": 71234,
+	"Wave": 3,
+	"CharacterIds": "39"
+},{
+	"PackID": 30,
+	"PackName" : "Midway Arcade",
+	"PackType" : "Level",
+	"packNumber": 71235,
+	"Wave": 4,
+	"CharacterIds": "40"	
+},{
+	"PackID": 31,
+	"PackName" : "Aquaman",
+	"PackType" : "Fun",
+	"packNumber": 71237,
+	"Wave": 4,
+	"CharacterIds": "41"
+},{
+	"PackID": 32,
+	"PackName" : "Stay Puft",
+	"PackType" : "Fun",
+	"packNumber": 71233,
+	"Wave": 4,
+	"CharacterIds": "42"
+},{
+	"PackID": 33,
+	"PackName" : "Superman",
+	"PackType" : "Fun",
+	"packNumber": 71236,
+	"Wave": 4,
+	"CharacterIds": "43"
+},{
+	"PackID": 34,
+	"PackName" : "Bane",
+	"PackType" : "Fun",
+	"packNumber": 71240,
+	"Wave": 5,
+	"CharacterIds": "44"
+},{
+	"PackID": 35,
+	"PackName" : "Lloyd",
+	"PackType" : "Fun",
+	"packNumber": 71239,
+	"Wave": 5,
+	"CharacterIds": "45"
+},{
+	"PackID": 36,
+	"PackName" : "Slimer",
+	"PackType" : "Fun",
+	"packNumber": 71241,
+	"Wave": 5,
+	"CharacterIds": "46"
+},{
+	"PackID": 37,
+	"PackName" : "Ghostbusters 2016",
+	"PackType" : "Story",
+	"packNumber": 71242,
+	"Wave": 6,
+	"CharacterIds": "47,48,49,50"
+},{
+	"PackID": 38,
+	"PackName" : "Adventure Time",
+	"PackType" : "Level",
+	"packNumber": 71245,
+	"Wave": 6,
+	"CharacterIds": "51"
+},{
+	"PackID": 39,
+	"PackName" : "Mission Impossible",
+	"PackType" : "Level",
+	"packNumber": 71248,
+	"Wave": 6,
+	"CharacterIds": "52"
+},{
+	"PackID": 40,
+	"PackName" : "Adventure Time",
+	"PackType" : "Team",
+	"packNumber": 71246,
+	"Wave": 6,
+	"CharacterIds": "53,54"
+},{
+	"PackID": 41,
+	"PackName" : "Harry Potter",
+	"PackType" : "Team",
+	"packNumber": 71247,
+	"Wave": 6,
+	"CharacterIds": "55,56"
+},{
+	"PackID": 42,
+	"PackName" : "B.A. Baracus",
+	"PackType" : "Fun",
+	"packNumber": 71251,
+	"Wave": 6,
+	"CharacterIds": "57,58,59,60"
+},{
+	"PackID": 43,
+	"PackName" : "Fantastic Beasts",
+	"PackType" : "Story",
+	"packNumber": 71253,
+	"Wave": 7,
+	"CharacterIds": "61,62"
+},{
+	"PackID": 44,
+	"PackName" : "Sonic",
+	"PackType" : "Level",
+	"packNumber": 71244,
+	"Wave": 7,
+	"CharacterIds": "63"
+},{
+	"PackID": 45,
+	"PackName" : "Gremlins",
+	"PackType" : "Level",
+	"packNumber": 71256,
+	"Wave": 7,
+	"CharacterIds": "64,65"
+},{
+	"PackID": 46,
+	"PackName" : "E.T.",
+	"PackType" : "Fun",
+	"packNumber": 71258,
+	"Wave": 7,
+	"CharacterIds": "66"
+},{
+	"PackID": 47,
+	"PackName" : "Marceline",
+	"PackType" : "Fun",
+	"packNumber": 71285,
+	"Wave": 7,
+	"CharacterIds": "67"
+},{
+	"PackID": 48,
+	"PackName" : "Tina Goldstein",
+	"PackType" : "Fun",
+	"packNumber": 71257,
+	"Wave": 7,
+	"CharacterIds": "68,69"
+},{
+	"PackID": 49,
+	"PackName" : "LEGO Batman Movie",
+	"PackType" : "Story",
+	"packNumber": 71264,
+	"Wave": 7.5,
+	"CharacterIds": "70,71"
+},{
+	"PackID": 50,
+	"PackName" : "Excalibur Batman",
+	"PackType" : "Fun",
+	"packNumber": 71344,
+	"Wave": 7.5,
+	"CharacterIds": "72"
+},{
+	"PackID": 51,
+	"PackName" : "Michael Knight",
+	"PackType" : "Fun",
+	"packNumber": 71344,
+	"Wave": 7.5,
+	"CharacterIds": "73"
+},{
+	"PackID": 52,
+	"PackName" : "Lego Batman",
+	"PackType" : "Red Brick",
+	"packNumber": 71344,
+	"Wave": 7.5,
+	"CharacterIds": "74"
+},{
+	"PackID": 53,
+	"PackName" : "The Goonies",
+	"PackType" : "Level",
+	"packNumber": 71267,
+	"Wave": 8,
+	"CharacterIds": "75,76,77,78,79,80,81,82"
+},{
+	"PackID": 54,
+	"PackName" : "Chase McCain",
+	"PackType" : "Fun",
+	"packNumber": 71266,
+	"Wave": 8,
+	"CharacterIds": "83"
+},{
+	"PackID": 55,
+	"PackName" : "Hermoine Granger",
+	"PackType" : "Fun",
+	"packNumber": 71348,
+	"Wave": 8,
+	"CharacterIds": "84"
+}
 ]

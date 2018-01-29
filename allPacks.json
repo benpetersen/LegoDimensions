@@ -1,271 +1,272 @@
 [
-	{
-		"PackID": 0,
-		"PackName" : "Exclusive",
-		"PackType" : "Level",
-		"Wave": 0,
-		"Characters" : [{
-			"CharacterID": 1,
-			"Name": "Green Arrow"
-		}]
-	},
-	{
-		"PackID": 1,
-		"PackName" : "PS4 Exclusive",
-		"PackType" : "Level",
-		"Wave": 1,
-		"Characters" : [{
-			"CharacterID": 2,
-			"Name": "Supergirl"
-		}]
-	},
-	{
-		"PackID": 2,
-		"PackName" : "Starter Pack",
-		"PackType" : "Story",
-		"Wave": 1,
-		"PackNumber": 71170,
-		"Characters" : [{
-			"CharacterID": 3,
-			"Name": "Batman"
+	[
+		{
+			"PackID": 0,
+			"PackName" : "Exclusive",
+			"PackType" : "Level",
+			"Wave": 0,
+			"Characters" : [{
+				"CharacterID": 1,
+				"Name": "Green Arrow"
+			}]
+		},
+		{
+			"PackID": 1,
+			"PackName" : "PS4 Exclusive",
+			"PackType" : "Level",
+			"Wave": 1,
+			"Characters" : [{
+				"CharacterID": 2,
+				"Name": "Supergirl"
+			}]
+		},
+		{
+			"PackID": 2,
+			"PackName" : "Starter Pack",
+			"PackType" : "Story",
+			"Wave": 1,
+			"PackNumber": 71170,
+			"Characters" : [{
+				"CharacterID": 3,
+				"Name": "Batman"
+			},{
+				"CharacterID": 4,
+				"Name": "Gandalf"
+			},{
+				"CharacterID": 5,
+				"Name": "Wildstyle"
+			}]
+		},
+		{
+			"PackID": 3,
+			"PackName" : "Back To The Future",
+			"PackType" : "Level",
+			"PackNumber": 71201,
+			"Wave": 1,
+			"Characters" : [{
+				"CharacterID": 6,
+				"Name": "Marty McFly"
+			}]
 		},{
-			"CharacterID": 4,
-			"Name": "Gandalf"
+			"PackID": 4,
+			"PackName" : "Portal 2",
+			"PackType" : "Level",
+			"PackNumber": 71203,
+			"Wave": 1,
+			"Characters" : [{
+				"CharacterID": 7,
+				"Name": "Chell"
+			}]
 		},{
-			"CharacterID": 5,
-			"Name": "Wildstyle"
-		}]
-	},
-	{
-		"PackID": 3,
-		"PackName" : "Back To The Future",
-		"PackType" : "Level",
-		"PackNumber": 71201,
-		"Wave": 1,
-		"Characters" : [{
-			"CharacterID": 6,
-			"Name": "Marty McFly"
-		}]
-	},{
-		"PackID": 4,
-		"PackName" : "Portal 2",
-		"PackType" : "Level",
-		"PackNumber": 71203,
-		"Wave": 1,
-		"Characters" : [{
-			"CharacterID": 7,
-			"Name": "Chell"
-		}]
-	},{
-		"PackID": 5,
-		"PackName" : "The Simpsons",
-		"PackType" : "Level",
-		"PackNumber": 71202,
-		"Wave": 1,
-		"Characters" : [{
-			"CharacterID": 8,
-			"Name": "Homer Simpson"
-		}]
-	},{
-		"PackID": 6,
-		"PackName" : "Jurassic World",
-		"PackType" : "Team",
-		"PackNumber": 71205,
-		"Wave": 1,
-		"Characters" : [{
-			"CharacterID": 9,
-			"Name": "ACU"
+			"PackID": 5,
+			"PackName" : "The Simpsons",
+			"PackType" : "Level",
+			"PackNumber": 71202,
+			"Wave": 1,
+			"Characters" : [{
+				"CharacterID": 8,
+				"Name": "Homer Simpson"
+			}]
 		},{
-			"CharacterID": 10,
-			"Name": "Owen Grady"
-		}]
-	},{
-		"PackID": 7,
-		"PackName" : "Scooby Doo",
-		"PackType" : "Level",
-		"PackNumber": 71206,
-		"Wave": 1,
-		"Characters" : [{
-			"CharacterID": 11,
-			"Name": "Scooby-Doo"
+			"PackID": 6,
+			"PackName" : "Jurassic World",
+			"PackType" : "Team",
+			"PackNumber": 71205,
+			"Wave": 1,
+			"Characters" : [{
+				"CharacterID": 9,
+				"Name": "ACU"
+			},{
+				"CharacterID": 10,
+				"Name": "Owen Grady"
+			}]
 		},{
-			"CharacterID": 12,
-			"Name": "Shaggy"
-		}]
-	},{
-		"PackID": 8,
-		"PackName" : "Bad Cop",
-		"PackType" : "Fun",
-		"PackNumber": 71213,
-		"Wave": 1,
-		"Characters" : [{
-			"CharacterID": 13,
-			"Name": "Bad Cop"
-		}]
-	},{
-		"PackID": 9,
-		"PackName" : "Benny",
-		"PackType" : "Fun",
-		"PackNumber": 71214,
-		"Wave": 1,
-		"Characters" : [{
-			"CharacterID": 14,
-			"Name": "Benny"
-		}]
-	},{
-		"PackID": 10,
-		"PackName" : "Cragger",
-		"PackType" : "Fun",
-		"PackNumber": 71223,
-		"Wave": 1,
-		"Characters" : [{
-			"CharacterID": 15,
-			"Name": "Cragger"
-		}]
-	},{
-		"PackID": 11,
-		"PackName" : "Cyborg",
-		"PackType" : "Fun",
-		"PackNumber": 71210,
-		"Wave": 1,
-		"Characters" : [{
-			"CharacterID": 16,
-			"Name": "Cyborg"
-		}]
-	},{
-		"PackID": 12,
-		"PackName" : "Emmet",
-		"PackType" : "Fun",
-		"PackNumber": 71212,
-		"Wave": 1,
-		"Characters" : [{
-			"CharacterID": 17,
-			"Name": "Emmet"
-		}]
-	},{
-		"PackID": 13,
-		"PackName" : "Eris",
-		"PackType" : "Fun",
-		"PackNumber": 71213,
-		"Wave": 1,
-		"Characters" : [{
-			"CharacterID": 18,
-			"Name": "Eris"
-		}]
-	},{
-		"PackID": 14,
-		"PackName" : "Gimli",
-		"PackType" : "Fun",
-		"PackNumber": 71220,
-		"Wave": 1,
-		"Characters" : [{
-			"CharacterID":19,
-			"Name": "Gimli"
-		}]
-	},{
-		"PackID": 15,
-		"PackName" : "Gollum",
-		"PackType" : "Fun",
-		"PackNumber": 71218,
-		"Wave": 1,
-		"Characters" : [{
-			"CharacterID": 20,
-			"Name": "Gollum"
-		}]
-	},{
-		"PackID": 16,
-		"PackName" : "Jay",
-		"PackType" : "Fun",
-		"PackNumber": 71215,
-		"Wave": 1,
-		"Characters" : [{
-			"CharacterID": 21,
-			"Name": "Jay"
-		}]
-	},{
-		"PackID": 17,
-		"PackName" : "Wicked Witch",
-		"PackType" : "Fun",
-		"packNumber": 71216,
-		"Wave": 1,
-		"Characters" : [{
-			"CharacterID": 22,
-			"Name": "Wicked Witch"
-		}]
-	},{
-		"PackID": 18,
-		"PackName" : "Wonder Woman",
-		"PackType" : "Fun",
-		"packNumber": 71209,
-		"Wave": 1,
-		"Characters" : [{
-			"CharacterID": 23,
-			"Name": "Wonder Woman"
-		}]
-	},{
-		"PackID": 19,
-		"PackName" : "Zane",
-		"PackType" : "Fun",
-		"packNumber": 71217,
-		"Wave": 1,
-		"Characters" : [{
-			"CharacterID": 24,
-			"Name": "Zane"
-		}]
-	},{
-		"PackID": 20,
-		"PackName" : "Doctor Who",
-		"PackType" : "Level",
-		"packNumber": 71204,
-		"Wave": 2,
-		"Characters" : [{
-			"CharacterID": 25,
-			"Name": "The Doctor"
-		}]
-	},{
-		"PackID": 21,
-		"PackName" : "Cole & Kai",
-		"PackType" : "Team",
-		"packNumber": 71207,
-		"Wave": 2,
-		"Characters" : [{
-			"CharacterID": 26,
-			"Name": "Cole"
+			"PackID": 7,
+			"PackName" : "Scooby Doo",
+			"PackType" : "Level",
+			"PackNumber": 71206,
+			"Wave": 1,
+			"Characters" : [{
+				"CharacterID": 11,
+				"Name": "Scooby-Doo"
+			},{
+				"CharacterID": 12,
+				"Name": "Shaggy"
+			}]
 		},{
-			"CharacterID": 27,
-			"Name": "Kai"
-		}]
-	},{
-		"PackID": 22,
-		"PackName" : "Bart Simpson",
-		"PackType" : "Fun",
-		"packNumber": 71211,
-		"Wave": 2,
-		"Characters" : [{
-			"CharacterID": 28,
-			"Name": "Bart Simpson"
-		}]
-	},{
-		"PackID": 23,
-		"PackName" : "Krusty",
-		"PackType" : "Fun",
-		"packNumber": 71227,
-		"Wave": 2,
-		"Characters" : [{
-			"CharacterID": 29,
-			"Name": "Krusty"
-		}]
-	},{
-		"PackID": 24,
-		"PackName" : "Unikitty",
-		"PackType" : "Fun",
-		"packNumber": 71231,
-		"Wave": 2,
-		"Characters" : [{
-			"CharacterID": 30,
-			"Name": "Krusty"
-		}]
-	},{
+			"PackID": 8,
+			"PackName" : "Bad Cop",
+			"PackType" : "Fun",
+			"PackNumber": 71213,
+			"Wave": 1,
+			"Characters" : [{
+				"CharacterID": 13,
+				"Name": "Bad Cop"
+			}]
+		},{
+			"PackID": 9,
+			"PackName" : "Benny",
+			"PackType" : "Fun",
+			"PackNumber": 71214,
+			"Wave": 1,
+			"Characters" : [{
+				"CharacterID": 14,
+				"Name": "Benny"
+			}]
+		},{
+			"PackID": 10,
+			"PackName" : "Cragger",
+			"PackType" : "Fun",
+			"PackNumber": 71223,
+			"Wave": 1,
+			"Characters" : [{
+				"CharacterID": 15,
+				"Name": "Cragger"
+			}]
+		},{
+			"PackID": 11,
+			"PackName" : "Cyborg",
+			"PackType" : "Fun",
+			"PackNumber": 71210,
+			"Wave": 1,
+			"Characters" : [{
+				"CharacterID": 16,
+				"Name": "Cyborg"
+			}]
+		},{
+			"PackID": 12,
+			"PackName" : "Emmet",
+			"PackType" : "Fun",
+			"PackNumber": 71212,
+			"Wave": 1,
+			"Characters" : [{
+				"CharacterID": 17,
+				"Name": "Emmet"
+			}]
+		},{
+			"PackID": 13,
+			"PackName" : "Eris",
+			"PackType" : "Fun",
+			"PackNumber": 71213,
+			"Wave": 1,
+			"Characters" : [{
+				"CharacterID": 18,
+				"Name": "Eris"
+			}]
+		},{
+			"PackID": 14,
+			"PackName" : "Gimli",
+			"PackType" : "Fun",
+			"PackNumber": 71220,
+			"Wave": 1,
+			"Characters" : [{
+				"CharacterID":19,
+				"Name": "Gimli"
+			}]
+		},{
+			"PackID": 15,
+			"PackName" : "Gollum",
+			"PackType" : "Fun",
+			"PackNumber": 71218,
+			"Wave": 1,
+			"Characters" : [{
+				"CharacterID": 20,
+				"Name": "Gollum"
+			}]
+		},{
+			"PackID": 16,
+			"PackName" : "Jay",
+			"PackType" : "Fun",
+			"PackNumber": 71215,
+			"Wave": 1,
+			"Characters" : [{
+				"CharacterID": 21,
+				"Name": "Jay"
+			}]
+		},{
+			"PackID": 17,
+			"PackName" : "Wicked Witch",
+			"PackType" : "Fun",
+			"packNumber": 71216,
+			"Wave": 1,
+			"Characters" : [{
+				"CharacterID": 22,
+				"Name": "Wicked Witch"
+			}]
+		},{
+			"PackID": 18,
+			"PackName" : "Wonder Woman",
+			"PackType" : "Fun",
+			"packNumber": 71209,
+			"Wave": 1,
+			"Characters" : [{
+				"CharacterID": 23,
+				"Name": "Wonder Woman"
+			}]
+		},{
+			"PackID": 19,
+			"PackName" : "Zane",
+			"PackType" : "Fun",
+			"packNumber": 71217,
+			"Wave": 1,
+			"Characters" : [{
+				"CharacterID": 24,
+				"Name": "Zane"
+			}]
+		},{
+			"PackID": 20,
+			"PackName" : "Doctor Who",
+			"PackType" : "Level",
+			"packNumber": 71204,
+			"Wave": 2,
+			"Characters" : [{
+				"CharacterID": 25,
+				"Name": "The Doctor"
+			}]
+		},{
+			"PackID": 21,
+			"PackName" : "Cole & Kai",
+			"PackType" : "Team",
+			"packNumber": 71207,
+			"Wave": 2,
+			"Characters" : [{
+				"CharacterID": 26,
+				"Name": "Cole"
+			},{
+				"CharacterID": 27,
+				"Name": "Kai"
+			}]
+		},{
+			"PackID": 22,
+			"PackName" : "Bart Simpson",
+			"PackType" : "Fun",
+			"packNumber": 71211,
+			"Wave": 2,
+			"Characters" : [{
+				"CharacterID": 28,
+				"Name": "Bart Simpson"
+			}]
+		},{
+			"PackID": 23,
+			"PackName" : "Krusty",
+			"PackType" : "Fun",
+			"packNumber": 71227,
+			"Wave": 2,
+			"Characters" : [{
+				"CharacterID": 29,
+				"Name": "Krusty"
+			}]
+		},{
+			"PackID": 24,
+			"PackName" : "Unikitty",
+			"PackType" : "Fun",
+			"packNumber": 71231,
+			"Wave": 2,
+			"Characters" : [{
+				"CharacterID": 30,
+				"Name": "Uni Kitty"
+			}]
+		},{
 		"PackID": 25,
 		"PackName" : "Ghostbusters",
 		"PackType" : "Level",

@@ -1,349 +1,197 @@
 [
 	{
 		"ID": 1,
-		"CharacterName" : "Green Arrow",
-		"Abilities": [
-			{"Name": "Acrobat"},
-			{"Name": "Grapple"}, 
-			{"Name": "Pole Vault"}, 
-			{"Name": "Target"}
-		]
+		"CharacterID": 1,
+		"CharacterName": "Green Arrow",
+		"Abilities": "Acrobat,Grapple,Pole Vault,Target"
 	},
 	{
 		"ID": 2,
+		"CharacterID": 2,
 		"CharacterName": "Supergirl",
-		"Abilities": [
-			{"Name": "Dig"},
-			{"Name": "Dive"},
-			{"Name": "Flying"},
-			{"Name": "Freeze Breath"},
-			{"Name": "Grapple"},
-			{"Name": "Invulnerability"}, 
-			{"Name": "Lantern Constructs"}, 
-			{"Name": "Laser"}, 
-			{"Name": "Super Strength"},
-			{"Name": "X-Ray Vision"}
-		]
+		"Abilities": "Dig,Dive,Flying,Freeze Breath,Grapple,Invulnerability,Lantern Constructs,Laser,Super Strength,X-Ray Vision"
 	},
 	{
 		"ID": 3,
-		"Name": "Batman",
-		"Abilities": [
-			{"Name": "Boomerang"}, 
-			{"Name": "Grapple"}, 
-			{"Name":  "Stealth"}
-		]
+		"CharacterID": 3,
+		"CharacterName": "Batman",
+		"Abilities": "Boomerang,Grapple,Stealth"
 	},
 	{
 		"ID": 4,
-		"Name": "Gandalf",
-		"Abilities": [
-			{"Name": "Illumination"}, 
-			{"Name": "Magic"}, 
-			{"Name": "Magical Shield"}
-		]
+		"CharacterID": 4,
+		"CharacterName": "Gandalf",
+		"Abilities": "Illumination,Magic,Magical Shield"
+		
 	},{      
 		"ID": 5,
-		"Name": "Wildstyle",
-		"Abilities": [
-			{"Name": "Acrobat"},
-			{"Name": "Master Build"}, 
-			{"Name": "Relic Detector"}
-		]
+		"CharacterID": 5,
+		"CharacterName": "Wildstyle",
+		"Abilities": "Acrobat,Master Build,Relic Detector"
 	},{
 		"ID": 6,
-		"Name": "Marty McFly",
-		"Abilities": [
-			{"Name": "Sonar Smash"}
-		]
+		"CharacterID": 6,
+		"CharacterName": "Marty McFly",
+		"Abilities": "Sonar Smash"
+		
 	},{
 		"ID": 7,
-		"Name": "Chell",
-		"Abilities": [
-			{"Name": "Acrobat"}, 
-			{"Name": "Portal Gun"}, 
-			{"Name": "Target"}
-		]
+		"CharacterID": 7,
+		"CharacterName": "Chell",
+		"Abilities": "Acrobat,Portal Gun,Target"
 	},{
 		"ID": 8,
-		"Name": "Homer Simpson",
-		"Abilities": [
-			{"Name": "Big Transform"},
-			{"Name":  "Sonar Smash"}, 
-			{"Name": "Super Strength"}
-		]
+		"CharacterID": 8,
+		"CharacterName": "Homer Simpson",
+		"Abilities": "Big Transform,Sonar Smash,Super Strength"
 	},{
 		"ID": 9,
-		"Name": "ACU",
-		"Abilities": [
-			{"Name": "Electricity"}, 
-			{"Name": "Illumination"}, 
-			{"Name":  "Super Strength"}
-		]
+		"CharacterID": 9,
+		"CharacterName": "ACU",
+		"Abilities": "Electricity,Illumination,Super Strength"
 	},{
 		"ID": 10,
-		"Name": "Owen Grady",
-		"Abilities": [
-			{"Name": "Stealth"}, 
-			{"Name": "Target"}, 
-			{"Name": "Tracking"}, 
-			{"Name": "Vine Cut"}
-		]
+		"CharacterID": 10,
+		"CharacterName": "Owen Grady",
+		"Abilities": "Stealth,Target,Tracking,Vine Cut"
 	},{
 		"ID": 11,
-		"Name": "Scooby-Doo",
-		"Abilities": [
-			{"Name": "Dig"}, 
-			{"Name": "Dive"},
-			{"Name":  "Glide"},
-			{"Name": "Stealth"}, 
-			{"Name": "Tracking"}
-		]
+		"CharacterID": 11,
+		"CharacterName": "Scooby-Doo",
+		"Abilities": "Dig, Dive,Glide,Stealth, Tracking"
 	},{
 		"ID": 12,
-		"Name": "Shaggy",
-		"Abilities": [
-			{"Name": "Glide"}, 
-			{"Name": "Stealth"}, 
-			{"Name": "Tracking"}
-		]
+		"CharacterID": 12,
+		"CharacterName": "Shaggy",
+		"Abilities": "Glide,Stealth,Tracking"
 	},{
 		"ID": 13,
-		"Name": "Bad Cop",
-		"Abilities": [
-			{"Name": "Laser"}, 
-			{"Name": "Relic Detector"}, 
-			{"Name": "Target"}
-		]
+		"CharacterID": 13,
+		"CharacterName": "Bad Cop",
+		"Abilities": "Laser,Relic Detector,Target"
+		
 	},{
 		"ID": 14,
-		"Name": "Benny",
-		"Abilities": [
-			{"Name": "Glide"},
-			{"Name": "Hacking"}, 
-			{"Name": "Master Build"}, 
-			{"Name": "Sonar Smash"}, 
-			{"Name": "Target"},
-			{"Name": "Technology"}
-		]
+		"CharacterID": 15,
+		"CharacterName": "Benny",
+		"Abilities": "Glide,Hacking,Master Build,Sonar Smash,Target,Technology"
+		
 	},{
 		"ID": 15,
-		"Name": "Cragger",
-		"Abilities": [
-			{"Name": "Chi"},
-			{"Name": "Dive"}, 
-			{"Name": "Hazard Protection"}, 
-			{"Name": "Super Strength"}, 
-			{"Name": "Super Strength Handles"}
-		]
+		"CharacterID": 15,
+		"CharacterName": "Cragger",
+		"Abilities": "Chi,Dive,Hazard Protection,Super Strength,Super Strength Handles"
 	},{
 		"ID": 16,
-		"Name": "Cyborg",
-		"Abilities": [
-			{"Name": "Big Transform"},
-			{"Name": "Dive"},
-			{"Name": "Laser"}, 
-			{"Name": "Super Strength"}, 
-			{"Name": "Target"},
-			{"Name": "Technology"}
-		]
+		"CharacterID": 16,
+		"CharacterName": "Cyborg",
+		"Abilities": "Big Transform,Dive,Laser,Super Strength,Target,Technology"
 	},{
 		"ID": 17,
-		"Name": "Emmet",
-		"Abilities": [
-			{"Name": "Drill"},
-			{"Name": "Fix-It"},
-			{"Name": "Master Build"}
-		]
+		"CharacterID": 17,
+		"CharacterName": "Emmet",
+		"Abilities": "Drill,Fix-It,Master Build"
 	},{
 		"ID": 18,
-		"Name": "Eris",
-		"Abilities": [
-			{"Name": "Chi"},
-			{"Name": "Flying"}, 
-			{"Name": "Super Strength"}, 
-			{"Name": "Target"}
-		]
+		"CharacterID": 18,
+		"CharacterName": "Eris",
+		"Abilities":"Chi,Flying, Super Strength,Target"
 	},{
 		"ID":19,
-		"Name": "Gimli",
-		"Abilities": [
-			{"Name": "Mini Access"}, 
-			{"Name": "Super Strength"}
-		]
+		"CharacterID": 19,
+		"CharacterName": "Gimli",
+		"Abilities":"Mini Access,Super Strength"
 	},{
 		"ID": 20,
-		"Name": "Gollum",
-		"Abilities": [
-			{"Name": "Acrobat"}, 
-			{"Name": "Boomerang"}, 
-			{"Name": "Dive"}, 
-			{"Name": "Mini Access"},
-			{"Name": "Silver Lego Blowup"}
-		]
+		"CharacterID": 20,
+		"CharacterName": "Gollum",
+		"Abilities": 
+			"Acrobat,Boomerang,Dive,Mini Access,Silver Lego Blowup"
 	},{
 		"ID": 21,
-		"Name": "Jay",
-		"Abilities": [
-			{"Name": "Acrobat"},
-			{"Name": "Electricity"}, 
-			{"Name": "Fix-It"}, 
-			{"Name": "Intelligence"},
-			{"Name": "Spinjitzu"}, 
-			{"Name": "Stealth"}
-		]
+		"CharacterID": 21,
+		"CharacterName": "Jay",
+		"Abilities": "Acrobat,Electricity, Fix-It, Intelligence,Spinjitzu,Stealth"
 	}, {
 		"ID": 22,
-		"Name": "Wicked Witch",
-		"Abilities": [
-			{"Name": "Flying"},
-			{"Name": "Illumination"},
-			{"Name": "Magic"},
-			{"Name": "Magical Shield"}, 
-			{"Name": "Mind Control"},
-			{"Name": "Silver Lego Blowup"},
-			{"Name": "Target"}
-		]
+		"CharacterID": 22,
+		"CharacterName": "Wicked Witch",
+		"Abilities": "Flying,Illumination,Magic,Magical Shield,Mind Control,Silver Lego Blowup,Target"
 	}, {
 		"ID": 23,
-		"Name": "Wonder Woman",
-		"Abilities": [
-			{"Name": "Acrobat"}, 
-			{"Name": "Boomerang"}, 
-			{"Name": "Dive"}, 
-			{"Name": "Flying"}, 
-			{"Name": "Grapple"}, 
-			{"Name": "Invulnerability"},
-			{"Name": "Laser Deflector"},
-			{"Name": "Mind Control"}, 
-			{"Name": "Super Strength Handles"}
-		]
+		"CharacterID": 23,
+		"CharacterName": "Wonder Woman",
+		"Abilities": "Acrobat,Boomerang,Dive,Flying,Grapple,Invulnerability,Laser Deflector,Mind Control,Super Strength Handles"
 	}, {
 		"ID": 24,
-			"Name": "Zane",
-			"Abilities": [
-				{"Name": "Acrobat"}, 
-				{"Name": "Boomerang"}, 
-				{"Name": "Dive"}, 
-				{"Name": "Spinjitzu"}, 
-				{"Name": "Stealth"}, 
-				{"Name": "X-Ray Vision"}
-			]
+		"CharacterID": 24,
+		"CharacterName": "Zane",
+		"Abilities": "Acrobat,Boomerang,Dive,Spinjitzu,Stealth,X-Ray Vision"
 	}, {
 		"ID": 25,
-		"Name": "The Doctor",
-		"Abilities": [
-			{"Name": "Doctor Regen"}, 
-			{"Name": "Fix-It"}, 
-			{"Name": "Hacking"}, 
-			{"Name": "Intelligence"}, 
-			{"Name": "Sonar Smash"}, 
-			{"Name": "Tardis Access"}, 
-			{"Name": "Technology"}
-		]
+		"CharacterID": 25,
+		"CharacterName": "The Doctor",
+		"Abilities": "Doctor Regen,Fix-It,Hacking,Intelligence,Sonar Smash,Tardis Access,Technology"
 	}, {
 		"ID": 26,
-		"Name": "Cole",
-		"Abilities": [
-			{"Name": "Acrobat"},
-			{"Name": "Laser Deflector"},
-			{"Name": "Spinjitzu"},
-			{"Name": "Stealth"},
-			{"Name": "Super Strength"}
-		]
+		"CharacterID": 26,
+		"CharacterName": "Cole",
+		"Abilities": "Acrobat,Laser Deflector,Spinjitzu,Stealth,Super Strength"
 	},{
 		"ID": 27,
-		"Name": "Kai",
-		"Abilities": [
-			{"Name": "Acrobat"},
-			{"Name": "Laser Deflector"},
-			{"Name": "Spinjitzu"},
-			{"Name": "Stealth"}
-		]
+		"CharacterID": 27,
+		"CharacterName": "Kai",
+		"Abilities": "Acrobat,Laser Deflector,Spinjitzu,Stealth"
 	}, {
 		"ID": 28,
-		"Name": "Bart Simpson",
-		"Abilities": [
-			{"Name": "Mini Access"},
-			{"Name": "Target"}
-		]
+		"CharacterID": 28,
+		"CharacterName": "Bart Simpson",
+		"Abilities": "Mini Access,Target"
 	}, {
 		"ID": 29,
-		"Name": "Krusty",
-		"Abilities": [
-			{"Name": "Hazard Cleaner"},
-			{"Name": "Water Spray"}
-		]
+		"CharacterID": 29,
+		"CharacterName": "Krusty",
+		"Abilities": "Hazard Cleaner,Water Spray"
 	}, {
 		"ID": 30,
-		"Name": "Krusty",
-		"Abilities": [
-			{"Name": "Big Transform"},
-			{"Name": "Master Build"},
-			{"Name": "Rainbow Lego Objects"}
-		]
+		"CharacterID": 30,
+		"CharacterName": "Uni Kitty",
+		"Abilities": "Big Transform,Master Build,Rainbow Lego Objects"
 	}, {
 		"ID": 31,
-		"Name": "Peter Venkman",
-		"Abilities": [
-			{"Name": "Character Change"}, 
-			{"Name": "Hazard Protection"}, 
-			{"Name": "Laser"}, 
-			{"Name": "Suspend Ghosts"}]
+		"CharacterID": 31,
+		"CharacterName": "Peter Venkman",
+		"Abilities": "Character Change,Hazard Protection,Laser,Suspend Ghosts"
 	},{
 		"ID": 32,
-		"Name": "Egon Spengler",
-		"Abilities": [
-			{"Name": "Character Change"},
-			{"Name": "Hazard Protection"}, 
-			{"Name": "Laser"}, 
-			{"Name": "Suspend Ghosts"}
-		]
+		"CharacterID": 32,
+		"CharacterName": "Egon Spengler",
+		"Abilities": "Character Change,Hazard Protection, Laser, Suspend Ghosts"
+		
 	},{
 		"ID": 33,
-		"Name": "Ray Stantz",
-		"Abilities": [
-			{"Name": "Character Change"},
-			{"Name": "Hazard Protection"},
-			{"Name": "Laser"},
-			{"Name": "Suspend Ghosts"}
-		]
+		"CharacterID": 33,
+		"CharacterName": "Ray Stantz",
+		"Abilities": "Character Change,Hazard Protection,Laser,Suspend Ghosts"
 	},{
 		"ID": 34,
-		"Name": "Winston Zeddemore",
-		"Abilities": [
-			{"Name": "Character Change"},
-			{"Name": "Hazard Protection"},
-			{"Name": "Laser"},
-			{"Name": "Suspend Ghosts"}
-		]
+		"CharacterID": 34,
+		"CharacterName": "Winston Zeddemore",
+		"Abilities": "Character Change,Hazard Protection,Laser,Suspend Ghosts"
 	}, {
 		"ID": 35,
-		"Name": "The Joker",
-		"Abilities": [
-			{"Name": "Electricity"},
-			{"Name": "Grapple"}, 
-			{"Name": "Hazard Protection"},
-			{"Name": "Target"}
-		]
+		"CharacterID": 35,
+		"CharacterName": "The Joker",
+		"Abilities": "Electricity,Grapple, Hazard Protection,Target"
 	},{
 		"ID": 36,
-		"Name": "Harley Quinn",
-		"Abilities": [
-			{"Name": "Acrobat"},
-			{"Name": "Super Strength"}
-		]
+		"CharacterID": 36,
+		"CharacterName": "Harley Quinn",
+		"Abilities": "Acrobat,Super Strength"
 	}, {
 		"ID": 37,
-		"Name": "Cyberman",
-		"Abilities": [
-			{"Name": "Dive"},
-			{"Name": "Drone Access"},
-			{"Name": "Hacking"},
-			{"Name": "Mind Control"},
-			{"Name": "Silver Lego Blowup"},
-			{"Name": "Technology"},
-			{"Name": "X-Ray Vision"}
-		]
+		"CharacterID": 37,
+		"CharacterName": "Cyberman",
+		"Abilities": "Dive,Drone Access,Hacking,Mind Control,Silver Lego Blowup,Technology,X-Ray Vision"
 	}
 ]

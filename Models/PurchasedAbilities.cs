@@ -1,18 +1,19 @@
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
 
 namespace LegoDimensions.Models
 {
     public class PurchasedAbilities
     {
         public int ID { get; set; }
-        public Ability Ability { get; set; }
-        public List<Character> Characters { get; set; }
-
-        public PurchasedAbilities(Ability ability, Character characters)
-        {
-            //Initilization for newly owned packs
-            Ability = ability;
-            Characters.Add(characters);
+        public int CharacterID { get; set; }
+        public string AbilityName { get; set; }
+        [NotMapped]
+        public List<string> CharacterList { get; set; }
+        public string Characters { 
+            get { return string.Join(",", CharacterList); }
+            set { CharacterList = value.Split(',').ToList();}
         }
     }
 

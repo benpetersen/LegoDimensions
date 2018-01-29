@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using Microsoft.EntityFrameworkCore;
 
 namespace LegoDimensions.Controllers
 {
@@ -32,16 +33,15 @@ namespace LegoDimensions.Controllers
 			context.ChangeTracker.AutoDetectChangesEnabled = false;
 			_context = context;
 
-			//Load Packs
 			if(_context.Packs.Count() == 0)
 			{
 				LoadPacks();
 			}
-			//Load Character Abilities
 			if(_context.CharacterAbilities.Count() == 0)
 			{
 				LoadCharacterAbilities();
 			}
+
 			//Load Abilities (to use as a definitive list to compare which ones don't I own)
 			if(_context.Abilities.Count() == 0)
 			{
@@ -62,7 +62,6 @@ namespace LegoDimensions.Controllers
 			}
 			_context.SaveChanges();
 		}
-
 		public void LoadCharacterAbilities()
 		{
 			dynamic characterAbilities;
@@ -76,7 +75,6 @@ namespace LegoDimensions.Controllers
 			}
 			_context.SaveChanges();
 		}
-
 		public void LoadAllAbilities()
 		{
 			using(StreamReader r = new StreamReader("abilities.json"))
@@ -91,6 +89,11 @@ namespace LegoDimensions.Controllers
 			}
 		}
 
+		/// <summary>
+		/// Returns all packs
+		/// </summary>
+		/// <returns> A JSON list of all lego dimensions packs.!-- </returns>
+		[Route("all")]
 		[HttpGet]
 		public async Task<IQueryable<Pack>> GetAllPacksAsync()
 		{
@@ -99,13 +102,13 @@ namespace LegoDimensions.Controllers
 			return packs;
 		}
 
-		[HttpPut("{id}")]
-		public IActionResult UpdatePackPurchased(int id, [FromBody] Pack item)
+		[Route("update/{id}")]
+		public IActionResult UpdatePackPurchased(int id)
 		{
 			//Pack is purchased, set each character as owned.
 			//Add abilities to owned list
 			
-			if (item == null || item.PackID != id)
+			if (id < 0 || id > 150)
 			{
 				return BadRequest();
 			}
@@ -115,91 +118,41 @@ namespace LegoDimensions.Controllers
 			{
 				return NotFound();
 			}
-			
-			var characters = pack.Characters.ToList();
-			foreach(Character character in characters)
-			{
-				character.IsPurchased = true;
-				//TODO: assign character to pack if it's not by reference
-				AddPurchasedCharactersToAbilityList(character);
-			}
-			//Add new abilities to Abilities
 
-			_context.Packs.Update(pack);
+			foreach (int characterID in pack.CharacterList){
+				var characterAbility = _context.CharacterAbilities.FirstOrDefault(c => c.CharacterID == characterID);
+				characterAbility.IsPurchased = true;
+				AddPurchasedCharactersToAbilityList(characterAbility);
+			}
 			_context.SaveChanges();
 			return new NoContentResult();
 		}
 
-		private void AddPurchasedCharactersToAbilityList(Character character)
+		private void AddPurchasedCharactersToAbilityList(CharacterAbilities _character)
 		{
 			//Add character abilities to owned ability list
-			var _character = _context.CharacterAbilities.Where(a => a.Character.ID == character.ID).FirstOrDefault();
-			_character.Character.IsPurchased = true;
+			_character.IsPurchased = true;
 
-			var abilities = _character.Abilities.ToList();
-			foreach(Ability ability in abilities){
+			foreach(string ability in _character.AbilityList){
 				//Add a character associated to an ability if it's available
-				var purchased = _context.PurchasedAbilities.Where(a => a.Ability.Name == ability.Name).FirstOrDefault();
+				var purchased = _context.PurchasedAbilities.Where(a => a.AbilityName == ability).FirstOrDefault();
 				if(purchased != null){
-					purchased.Characters.Add(character);
+					purchased.Characters = purchased.Characters + "," + _character.CharacterName;
 				}else{
-					//for each of the character abilites that aren't in the list, add it
-					var newlyPurchased = new PurchasedAbilities(
-						ability,
-						character
-					);
+					//similar to sql pivot, characters with that ability - instead of - abilities from a character
+					var newlyPurchased = new PurchasedAbilities();
+					newlyPurchased.CharacterID = _character.CharacterID;
+					newlyPurchased.AbilityName = ability;
+					newlyPurchased.Characters = _character.CharacterName;
+
 					_context.PurchasedAbilities.Add(
 						newlyPurchased
 					);
 				}
 				
 			}
-
-			// if(contextAbility != null){
-			// 	contextAbility.Characters.Add(
-			// 		character.ID
-			// 		character.Name
-			// 	);
-			// }else{
-			// 	stuff.Characters.Add(currentCharacter.Name);
-
-			// 	_context.OwnedCharactersWithAbility.Add(
-			// 		stuff
-			// 	);
-			// }
 		}
 
-
-
-
-
-
-
-		// [HttpPost]
-		// public IActionResult Create([FromBody] Ability ability)
-		// {
-		//     if(ability == null){
-		//         return BadRequest();
-		//     }
-		//     _context.Abilities.Add(ability);
-		//     _context.SaveChanges();
-
-		//     return CreatedAtRoute("GetAbility", new { id = ability.Id }, ability);
-		// }
-
-		// [HttpDelete("{id}")]
-		// public IActionResult Delete(long id)
-		// {
-		//     var ability = _context.Abilities.FirstOrDefault(t => t.Id == id);
-		//     if (ability == null)
-		//     {
-		//         return NotFound();
-		//     }
-
-		//     _context.Abilities.Remove(ability);
-		//     _context.SaveChanges();
-		//     return new NoContentResult();
-		// }
 	}
 
 }

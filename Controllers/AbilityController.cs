@@ -36,11 +36,11 @@ namespace LegoDimensions.Controllers
         public IActionResult GetAbilitiesAndCharacters(long id)
         {
 
-            var purchasedPacks = _context.Packs
-                .Where(p => p.Characters.Any(c => c.IsPurchased == true ));
+            // var purchasedPacks = _context.Packs
+            //     .Where(p => p.Characters.Any(c => c.IsPurchased == true ));
 
-            foreach(Pack pack in purchasedPacks)
-            {
+            // foreach(Pack pack in purchasedPacks)
+            // {
                 /*
                 iterate through each owned pack, each character and add to AbilitiesOwned Character list
                 
@@ -83,15 +83,16 @@ namespace LegoDimensions.Controllers
                 //         }
                 //     }
                 // }
-            }
+            //}
 
-            _context.SaveChanges();
+            // _context.SaveChanges();
 
 
-            if(purchasedPacks == null){
-                return NotFound();
-            }
-            return new ObjectResult(purchasedPacks);
+            // if(purchasedPacks == null){
+            //     return NotFound();
+            // }
+            //return new ObjectResult(purchasedPacks);
+            return new ObjectResult(null);
         }
 
     }
